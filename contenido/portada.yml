@@ -1,0 +1,221 @@
+# Página de inicio.
+# Fotos que pasan a pantalla completa al abrir la web (cambian cada "segundos").
+carrusel:
+  - imagenes/a-medio-camino-escena.jpg
+  - imagenes/blue-monday-calle.jpg
+  - imagenes/happy-everything-01.jpg
+  - imagenes/arboles-01.jpg
+  - imagenes/a-medio-camino-calle.jpg
+  - imagenes/happy-everything-portada.jpg
+segundos: 3
+
+es:
+  intro: Proyecto creativo de Agnès Sales y Héctor Plaza de creación escénica desde la danza urbana
+  palabra: a la vera
+  silabas: a · la · ve · ra   /a la ˈβe.ɾa/
+  categoria: loc. adv.
+  acepciones:
+    - Al lado de algo, en su orilla.
+    - Entre dos cosas, sin dejar del todo ninguna de las dos.
+  frase: "Creamos despacio y a mano, desde lo que pasa entre cuerpos: *lo sencillo y lo virtuoso* contenidos en el mismo gesto."
+  contacto_titulo: "Trabajemos *juntos*"
+  contacto_texto: Cada proyecto nace de un encuentro. Si quieres programar una pieza, desarrollar una colaboración o explorar nuevas formas de creación, estaremos encantados de escucharte.
+
+ca:
+  intro: Projecte creatiu d'Agnès Sales i Héctor Plaza de creació escènica des de la dansa urbana
+  palabra: a la vera
+  silabas: a · la · ve · ra   /a la ˈβe.ɾa/
+  categoria: loc. adv. (castellà)
+  acepciones:
+    - Al costat d'alguna cosa, a la seva vora.
+    - Entre dues coses, sense deixar del tot cap de les dues.
+  frase: "Creem a poc a poc i a mà, des del que passa entre cossos: *allò senzill i allò virtuós* continguts en el mateix gest."
+  contacto_titulo: "Treballem *plegats*"
+  contacto_texto: Cada projecte neix d'una trobada. Si vols programar una peça, desenvolupar una col·laboració o explorar noves formes de creació, estarem encantats d'escoltar-te.
+
+en:
+  intro: The creative project of Agnès Sales and Héctor Plaza, making stage work from urban dance
+  palabra: a la vera
+  silabas: a · la · ve · ra   /a la ˈβe.ɾa/
+  categoria: Spanish, adv. phrase
+  acepciones:
+    - Beside something, at its edge.
+    - Between two things, without fully leaving either.
+  frase: "We create slowly and by hand, from what happens between bodies: *the simple and the virtuosic* held in the same gesture."
+  contacto_titulo: "Let's work *together*"
+  contacto_texto: Every project starts with an encounter. If you'd like to programme a piece, develop a collaboration or explore new ways of creating, we'd love to hear from you.
+
+fr:
+  intro: Projet créatif d'Agnès Sales et Héctor Plaza, de création scénique à partir de la danse urbaine
+  palabra: a la vera
+  silabas: a · la · ve · ra   /a la ˈβe.ɾa/
+  categoria: loc. adv. (espagnol)
+  acepciones:
+    - À côté de quelque chose, sur sa rive.
+    - Entre deux choses, sans quitter tout à fait ni l'une ni l'autre.
+  frase: "Nous créons lentement et à la main, à partir de ce qui se passe entre les corps : *le simple et le virtuose* contenus dans le même geste."
+  contacto_titulo: "Travaillons *ensemble*"
+  contacto_texto: Chaque projet naît d'une rencontre. Si vous souhaitez programmer une pièce, développer une collaboration ou explorer de nouvelles formes de création, nous serons ravis de vous lire.
+
+# Los tres tableros de fotos. Cada foto lleva a la página de un proyecto.
+# columna / fila: dónde se coloca en la rejilla (12 columnas). velocidad: cuánto se mueve al hacer scroll (entre -0.15 y 0.15).
+# encima: sí si debe quedar por encima de las que se solapan.
+tableros:
+  - id: en-gira
+    titulo: {es: "En gira", ca: "En gira", en: "On tour", fr: "En tournée"}
+    fotos:
+      - proyecto: blue-monday
+        imagen: imagenes/blue-monday-calle.jpg
+        columna: 2 / 7
+        fila: 1 / 7
+        velocidad: 0.04
+        es: {dato: "Dúo · 13 min · Calle y sala", linea: "Sostener al otro cuando apenas nos sostenemos a nosotros mismos."}
+        ca: {dato: "Duet · 13 min · Carrer i sala", linea: "Sostenir l'altre quan amb prou feines ens sostenim a nosaltres mateixos."}
+        en: {dato: "Duet · 13 min · Street and stage", linea: "Holding the other up when we can barely hold ourselves."}
+        fr: {dato: "Duo · 13 min · Rue et salle", linea: "Soutenir l'autre quand on se soutient à peine soi-même."}
+      - proyecto: lo-que-los-arboles-no-cuentan
+        imagen: imagenes/arboles-01.jpg
+        columna: 7 / 12
+        fila: 3 / 9
+        velocidad: 0.12
+        es: {dato: "Dúo · Calle", linea: "Héctor Plaza y Kiko López. Una reflexión bailada sobre lo que compartimos con la naturaleza."}
+        ca: {dato: "Duet · Carrer", linea: "Héctor Plaza i Kiko López. Una reflexió ballada sobre allò que compartim amb la natura."}
+        en: {dato: "Duet · Street", linea: "Héctor Plaza and Kiko López. A danced reflection on what we share with nature."}
+        fr: {dato: "Duo · Rue", linea: "Héctor Plaza et Kiko López. Une réflexion dansée sur ce que nous partageons avec la nature."}
+      - proyecto: happy-everything
+        imagen: imagenes/happy-everything-01.jpg
+        columna: 1 / 6
+        fila: 7 / 13
+        velocidad: -0.05
+        es: {dato: "Solo · 15 min", linea: "La felicidad como obligación. ¿Qué espacio queda para la vulnerabilidad?"}
+        ca: {dato: "Solo · 15 min", linea: "La felicitat com a obligació. Quin espai queda per a la vulnerabilitat?"}
+        en: {dato: "Solo · 15 min", linea: "Happiness as an obligation. What room is left for vulnerability?"}
+        fr: {dato: "Solo · 15 min", linea: "Le bonheur comme obligation. Quelle place reste-t-il pour la vulnérabilité ?"}
+      - proyecto: a-medio-camino
+        imagen: imagenes/a-medio-camino-calle.jpg
+        columna: 6 / 11
+        fila: 9 / 14
+        velocidad: 0.08
+        es: {dato: "Trío · 23 min · Calle y sala", linea: "Tres cuerpos y una voz. El flamenco se encuentra con el krump y el breaking."}
+        ca: {dato: "Trio · 23 min · Carrer i sala", linea: "Tres cossos i una veu. El flamenc es troba amb el krump i el breaking."}
+        en: {dato: "Trio · 23 min · Street and stage", linea: "Three bodies and one voice. Flamenco meets krump and breaking."}
+        fr: {dato: "Trio · 23 min · Rue et salle", linea: "Trois corps et une voix. Le flamenco rencontre le krump et le breaking."}
+      - proyecto: a-medio-camino
+        imagen: imagenes/a-medio-camino-escena.jpg
+        columna: 3 / 8
+        fila: 13 / 19
+        velocidad: 0.02
+        es: {dato: "Trío · 23 min · Calle y sala", linea: "Tres cuerpos y una voz. El flamenco se encuentra con el krump y el breaking."}
+        ca: {dato: "Trio · 23 min · Carrer i sala", linea: "Tres cossos i una veu. El flamenc es troba amb el krump i el breaking."}
+        en: {dato: "Trio · 23 min · Street and stage", linea: "Three bodies and one voice. Flamenco meets krump and breaking."}
+        fr: {dato: "Trio · 23 min · Rue et salle", linea: "Trois corps et une voix. Le flamenco rencontre le krump et le breaking."}
+      - proyecto: happy-everything
+        imagen: imagenes/happy-everything-portada.jpg
+        columna: 8 / 12
+        fila: 14 / 19
+        velocidad: -0.1
+        encima: true
+        es: {dato: "Solo · 15 min", linea: "Premio NunArt. Una pieza sobre la presión por estar bien."}
+        ca: {dato: "Solo · 15 min", linea: "Premi NunArt. Una peça sobre la pressió per estar bé."}
+        en: {dato: "Solo · 15 min", linea: "NunArt Award. A piece about the pressure to be okay."}
+        fr: {dato: "Solo · 15 min", linea: "Prix NunArt. Une pièce sur la pression d'aller bien."}
+      - proyecto: blue-monday
+        imagen: imagenes/blue-monday-sala.jpg
+        columna: 5 / 9
+        fila: 19 / 23
+        velocidad: -0.06
+        es: {dato: "Dúo · 13 min · Calle y sala", linea: "Sostener al otro cuando apenas nos sostenemos a nosotros mismos."}
+        ca: {dato: "Duet · 13 min · Carrer i sala", linea: "Sostenir l'altre quan amb prou feines ens sostenim a nosaltres mateixos."}
+        en: {dato: "Duet · 13 min · Street and stage", linea: "Holding the other up when we can barely hold ourselves."}
+        fr: {dato: "Duo · 13 min · Rue et salle", linea: "Soutenir l'autre quand on se soutient à peine soi-même."}
+
+  - id: pedagogia
+    titulo: {es: "Pedagogía", ca: "Pedagogia", en: "Teaching", fr: "Pédagogie"}
+    fotos:
+      - proyecto: comunitarios
+        imagen: imagenes/comunitarios-grupo.jpg
+        columna: 2 / 7
+        fila: 1 / 6
+        velocidad: 0.04
+        es: {dato: "Creación colectiva", linea: "Procesos de creación con grupos no profesionales."}
+        ca: {dato: "Creació col·lectiva", linea: "Processos de creació amb grups no professionals."}
+        en: {dato: "Collective creation", linea: "Creative processes with non-professional groups."}
+        fr: {dato: "Création collective", linea: "Des processus de création avec des groupes amateurs."}
+      - proyecto: institutos
+        imagen: imagenes/institutos.jpg
+        columna: 7 / 11
+        fila: 2 / 7
+        velocidad: 0.12
+        es: {dato: "ESO y Bachillerato · 50–55 min", linea: "El solo en directo y una charla sobre salud mental."}
+        ca: {dato: "ESO i Batxillerat · 50–55 min", linea: "El solo en directe i una xerrada sobre salut mental."}
+        en: {dato: "Secondary schools · 50–55 min", linea: "The solo performed live and a talk on mental health."}
+        fr: {dato: "Collège et lycée · 50–55 min", linea: "Le solo en direct et un échange sur la santé mentale."}
+      - proyecto: talleres
+        imagen: imagenes/talleres-giro.jpg
+        columna: 3 / 7
+        fila: 6 / 10
+        velocidad: -0.05
+        es: {dato: "Taller", linea: "Suelo, partnering, breaking y teatro físico."}
+        ca: {dato: "Taller", linea: "Terra, partnering, breaking i teatre físic."}
+        en: {dato: "Workshop", linea: "Floorwork, partnering, breaking and physical theatre."}
+        fr: {dato: "Atelier", linea: "Sol, partnering, breaking et théâtre physique."}
+      - proyecto: talleres
+        imagen: imagenes/talleres-sala.jpg
+        columna: 9 / 13
+        fila: 8 / 12
+        velocidad: 0.09
+        es: {dato: "Taller", linea: "Adaptados al nivel y a la duración que necesites."}
+        ca: {dato: "Taller", linea: "Adaptats al nivell i a la durada que necessitis."}
+        en: {dato: "Workshop", linea: "Adapted to the level and length you need."}
+        fr: {dato: "Atelier", linea: "Adaptés au niveau et à la durée souhaitée."}
+      - proyecto: talleres
+        imagen: imagenes/talleres-salto.jpg
+        columna: 6 / 9
+        fila: 9 / 14
+        velocidad: -0.08
+        encima: true
+        es: {dato: "Taller", linea: "Floorwork y breaking."}
+        ca: {dato: "Taller", linea: "Floorwork i breaking."}
+        en: {dato: "Workshop", linea: "Floorwork and breaking."}
+        fr: {dato: "Atelier", linea: "Floorwork et breaking."}
+
+  - id: colaboraciones
+    titulo: {es: "Colaboraciones", ca: "Col·laboracions", en: "Collaborations", fr: "Collaborations"}
+    fotos:
+      - proyecto: treinta-segundos
+        imagen: imagenes/treinta-segundos.jpg
+        columna: 2 / 8
+        fila: 1 / 7
+        velocidad: 0.04
+        es: {dato: "Videodanza · 3:28", linea: "Un videodanza sobre el recuerdo, alrededor de una mesa y un café."}
+        ca: {dato: "Videodansa · 3:28", linea: "Un videodansa sobre el record, al voltant d'una taula i un cafè."}
+        en: {dato: "Dance film · 3:28", linea: "A dance film about memory, around a table and a cup of coffee."}
+        fr: {dato: "Vidéodanse · 3:28", linea: "Une vidéodanse sur le souvenir, autour d'une table et d'un café."}
+      - proyecto: anaga
+        imagen: imagenes/anaga-01.jpg
+        columna: 8 / 12
+        fila: 3 / 8
+        velocidad: 0.12
+        es: {dato: "Videodanza · 2:17", linea: "Bailar entre la laurisilva y el mar."}
+        ca: {dato: "Videodansa · 2:17", linea: "Ballar entre la laurisilva i el mar."}
+        en: {dato: "Dance film · 2:17", linea: "Dancing between the laurel forest and the sea."}
+        fr: {dato: "Vidéodanse · 2:17", linea: "Danser entre la laurisylve et la mer."}
+      - proyecto: anaga
+        imagen: imagenes/anaga-02.jpg
+        columna: 5 / 10
+        fila: 7 / 12
+        velocidad: -0.07
+        encima: true
+        es: {dato: "Videodanza · 2:17", linea: "Videodanza de Derek Pedrós con Héctor Plaza. Tenerife, 2015."}
+        ca: {dato: "Videodansa · 2:17", linea: "Videodansa de Derek Pedrós amb Héctor Plaza. Tenerife, 2015."}
+        en: {dato: "Dance film · 2:17", linea: "A dance film by Derek Pedrós with Héctor Plaza. Tenerife, 2015."}
+        fr: {dato: "Vidéodanse · 2:17", linea: "Une vidéodanse de Derek Pedrós avec Héctor Plaza. Tenerife, 2015."}
+      - proyecto: lo-que-los-arboles-no-cuentan
+        imagen: imagenes/arboles-02.jpg
+        columna: 2 / 7
+        fila: 11 / 16
+        velocidad: 0.09
+        es: {dato: "Dúo · Calle", linea: "En el catálogo Danza a Escena 2027."}
+        ca: {dato: "Duet · Carrer", linea: "Al catàleg Danza a Escena 2027."}
+        en: {dato: "Duet · Street", linea: "Selected for the Danza a Escena 2027 catalogue."}
+        fr: {dato: "Duo · Rue", linea: "Sélectionnée au catalogue Danza a Escena 2027."}

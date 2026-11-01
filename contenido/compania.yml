@@ -1,0 +1,82 @@
+foto_principal: imagenes/compania-retrato.jpg
+encuadre: 50% 30%
+galeria:
+  - {imagen: "imagenes/compania-01.jpg", pie: "", tamano: "ancha"}
+  - {imagen: "imagenes/ehiza.jpg", pie: "Ehiza", tamano: "media"}
+  - {imagen: "imagenes/compania-02.jpg", pie: "", tamano: "media dcha"}
+
+es:
+  titulo: Agnès Sales y Héctor Plaza
+  rotulo: Compañía · Barcelona, desde 2016
+  datos: Danza urbana contemporánea
+  texto: |
+    ALAVERA es una compañía de danza urbana contemporánea fundada por Agnès Sales y Héctor Plaza en 2016 en Barcelona. Su lenguaje escénico nace de la mezcla entre el breaking, la danza contemporánea y el teatro físico, combinando lo artesanal con lo experimental y poniendo en valor la belleza de lo vulnerable y lo real.
+
+    > Crear. Compartir. Transformar.
+  creacion_titulo: Creación
+  creacion: "Desde 2016 han creado obras como *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* y *A medio camino*, presentadas en festivales como Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red a Cielo Abierto o Dança em Trânsito, entre otros."
+  formacion_titulo: Formación
+  formacion: "Además de la creación escénica, la labor pedagógica es una parte esencial de su trabajo, entendida como una extensión natural de su práctica artística y de su deseo de compartir. Han impartido formación en la TNUA (Taipéi), James Carlès (Toulouse), el Freiartfestival (Friburgo), Varium, Àrea o en proyectos socioeducativos como En Residència (Barcelona)."
+  premios_titulo: Reconocimientos
+  premios:
+    - {premio: "Premio Solo Dos", detalle: "*Ehiza* · Certamen Burgos & Nueva York"}
+    - {premio: "Premio NunArt", detalle: "*Happy Everything* · Certamen de Sabadell"}
+  pedir: Trabajemos *juntos*
+  pedir_texto: Cuéntanos qué tienes en mente y te respondemos.
+
+ca:
+  titulo: Agnès Sales i Héctor Plaza
+  rotulo: Companyia · Barcelona, des del 2016
+  datos: Dansa urbana contemporània
+  texto: |
+    ALAVERA és una companyia de dansa urbana contemporània fundada per Agnès Sales i Héctor Plaza l'any 2016 a Barcelona. El seu llenguatge escènic neix de la barreja entre el breaking, la dansa contemporània i el teatre físic, combinant allò artesanal amb allò experimental i posant en valor la bellesa d'allò vulnerable i allò real.
+
+    > Crear. Compartir. Transformar.
+  creacion_titulo: Creació
+  creacion: "Des del 2016 han creat obres com *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* i *A medio camino*, presentades en festivals com Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red a Cielo Abierto o Dança em Trânsito, entre d'altres."
+  formacion_titulo: Formació
+  formacion: "A més de la creació escènica, la tasca pedagògica és una part essencial del seu treball, entesa com una extensió natural de la pràctica artística i del desig de compartir. Han impartit formació a la TNUA (Taipei), James Carlès (Tolosa), el Freiartfestival (Friburg), Varium, Àrea o en projectes socioeducatius com En Residència (Barcelona)."
+  premios_titulo: Reconeixements
+  premios:
+    - {premio: "Premi Solo Dos", detalle: "*Ehiza* · Certamen Burgos & Nova York"}
+    - {premio: "Premi NunArt", detalle: "*Happy Everything* · Certamen de Sabadell"}
+  pedir: Treballem *plegats*
+  pedir_texto: Explica'ns què tens al cap i et respondrem.
+
+en:
+  titulo: Agnès Sales and Héctor Plaza
+  rotulo: Company · Barcelona, since 2016
+  datos: Contemporary urban dance
+  texto: |
+    ALAVERA is a contemporary urban dance company founded by Agnès Sales and Héctor Plaza in Barcelona in 2016. Its stage language comes from the meeting of breaking, contemporary dance and physical theatre, combining the handmade with the experimental and valuing the beauty of what is vulnerable and real.
+
+    > Create. Share. Transform.
+  creacion_titulo: Creation
+  creacion: "Since 2016 they have created works such as *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* and *A medio camino*, presented at festivals including Breakin' Convention (Sadler's Wells, London), Dansa Metropolitana, La Red a Cielo Abierto and Dança em Trânsito."
+  formacion_titulo: Teaching
+  formacion: "Alongside stage work, teaching is an essential part of what they do, a natural extension of their artistic practice and their wish to share. They have taught at TNUA (Taipei), James Carlès (Toulouse), Freiartfestival (Freiburg), Varium and Àrea, and in community education projects such as En Residència (Barcelona)."
+  premios_titulo: Awards
+  premios:
+    - {premio: "Solo Dos Award", detalle: "*Ehiza* · Burgos & New York Choreography Competition"}
+    - {premio: "NunArt Award", detalle: "*Happy Everything* · Sabadell Competition"}
+  pedir: Let's work *together*
+  pedir_texto: Tell us what you have in mind and we'll get back to you.
+
+fr:
+  titulo: Agnès Sales et Héctor Plaza
+  rotulo: Compagnie · Barcelone, depuis 2016
+  datos: Danse urbaine contemporaine
+  texto: |
+    ALAVERA est une compagnie de danse urbaine contemporaine fondée par Agnès Sales et Héctor Plaza en 2016 à Barcelone. Son langage scénique naît du mélange entre le breaking, la danse contemporaine et le théâtre physique, alliant l'artisanal à l'expérimental et mettant en valeur la beauté de ce qui est vulnérable et réel.
+
+    > Créer. Partager. Transformer.
+  creacion_titulo: Création
+  creacion: "Depuis 2016, ils ont créé des pièces comme *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* et *A medio camino*, présentées dans des festivals tels que Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red a Cielo Abierto ou Dança em Trânsito."
+  formacion_titulo: Transmission
+  formacion: "Au-delà de la création, la pédagogie est une part essentielle de leur travail, conçue comme un prolongement naturel de leur pratique artistique et de leur désir de partager. Ils ont enseigné à la TNUA (Taipei), chez James Carlès (Toulouse), au Freiartfestival (Fribourg-en-Brisgau), à Varium, à Àrea ou dans des projets socio-éducatifs comme En Residència (Barcelone)."
+  premios_titulo: Prix
+  premios:
+    - {premio: "Prix Solo Dos", detalle: "*Ehiza* · Concours Burgos & New York"}
+    - {premio: "Prix NunArt", detalle: "*Happy Everything* · Concours de Sabadell"}
+  pedir: Travaillons *ensemble*
+  pedir_texto: Racontez-nous ce que vous avez en tête et nous vous répondrons.

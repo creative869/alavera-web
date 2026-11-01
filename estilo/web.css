@@ -1,0 +1,20 @@
+/* Ajustes de la web publicada (lo que en Design hacía el lienzo). */
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: #fff; }
+[hidden] { display: none !important; }
+.saltar { position: absolute; left: -9999px; top: 0; z-index: 100; background: #141414; color: #fff; padding: 10px 16px; }
+.saltar:focus { left: 16px; top: 16px; }
+
+/* Portada: cuánto bajan la definición y el logo (en Design: bajarDefinicion y bajarLogo) */
+.definicion { margin-top: 200px; }
+.portada-marca { margin-bottom: -200px; }
+
+/* Vídeo: al pulsar, el póster se cambia por el reproductor de YouTube */
+.video { cursor: pointer; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+button.video { width: 100%; padding: 0; border: 0; }
+
+/* Página 404 */
+.no-existe { min-height: 70vh; display: grid; place-content: center; justify-items: center; gap: 18px; text-align: center; padding: 120px var(--lado); }
+.no-existe h1 { margin: 0; font-family: var(--titular); font-weight: 400; font-size: clamp(40px, 5vw, 72px); }
+.no-existe p { margin: 0; color: var(--gris-texto); }

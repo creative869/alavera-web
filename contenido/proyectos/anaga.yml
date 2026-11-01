@@ -1,0 +1,75 @@
+grupo: colaboraciones
+orden: 2
+foto_principal: imagenes/anaga-01.jpg
+credito_principal: Derek Pedrós
+encuadre: 50% 50%
+# Este vídeo está en Behance, no en YouTube: se pone el enlace completo.
+video: https://www.behance.net/gallery/31152523/Anaga
+video_portada: imagenes/anaga-03.jpg
+galeria:
+  - {imagen: "imagenes/anaga-02.jpg", credito: "Derek Pedrós", tamano: "ancha"}
+  - {imagen: "imagenes/anaga-03.jpg", credito: "Derek Pedrós", tamano: "media dcha"}
+
+es:
+  titulo: Anaga
+  rotulo: Colaboraciones · Videodanza · 2015
+  datos: Videodanza · 2 min 17 s · Tenerife
+  texto: |
+    Vídeo de Derek Pedrós con Héctor Plaza, rodado en el Parque Rural de Anaga, en Tenerife, declarado Reserva de la Biosfera en 2015.
+
+    > Bailar entre la laurisilva y el mar.
+  ficha:
+    - {dato: "Dirección", valor: "Derek Pedrós"}
+    - {dato: "Danza", valor: "Héctor Plaza"}
+    - {dato: "Duración", valor: "2 min 17 s"}
+    - {dato: "Lugar", valor: "Parque Rural de Anaga, Tenerife"}
+  boton_video: Ver en Behance
+  pedir: ¿Quieres colaborar con nosotros?
+
+ca:
+  titulo: Anaga
+  rotulo: Col·laboracions · Videodansa · 2015
+  datos: Videodansa · 2 min 17 s · Tenerife
+  texto: |
+    Vídeo de Derek Pedrós amb Héctor Plaza, rodat al Parc Rural d'Anaga, a Tenerife, declarat Reserva de la Biosfera el 2015.
+
+    > Ballar entre la laurisilva i el mar.
+  ficha:
+    - {dato: "Direcció", valor: "Derek Pedrós"}
+    - {dato: "Dansa", valor: "Héctor Plaza"}
+    - {dato: "Durada", valor: "2 min 17 s"}
+    - {dato: "Lloc", valor: "Parc Rural d'Anaga, Tenerife"}
+  boton_video: Mira-ho a Behance
+  pedir: Vols col·laborar amb nosaltres?
+
+en:
+  titulo: Anaga
+  rotulo: Collaborations · Dance film · 2015
+  datos: Dance film · 2 min 17 s · Tenerife
+  texto: |
+    A film by Derek Pedrós with Héctor Plaza, shot in Anaga Rural Park, Tenerife, declared a Biosphere Reserve in 2015.
+
+    > Dancing between the laurel forest and the sea.
+  ficha:
+    - {dato: "Director", valor: "Derek Pedrós"}
+    - {dato: "Dance", valor: "Héctor Plaza"}
+    - {dato: "Duration", valor: "2 min 17 s"}
+    - {dato: "Location", valor: "Anaga Rural Park, Tenerife"}
+  boton_video: Watch on Behance
+  pedir: Would you like to collaborate with us?
+
+fr:
+  titulo: Anaga
+  rotulo: Collaborations · Vidéodanse · 2015
+  datos: Vidéodanse · 2 min 17 s · Tenerife
+  texto: |
+    Une vidéo de Derek Pedrós avec Héctor Plaza, tournée dans le parc rural d'Anaga, à Tenerife, déclaré réserve de biosphère en 2015.
+
+    > Danser entre la laurisylve et la mer.
+  ficha:
+    - {dato: "Réalisation", valor: "Derek Pedrós"}
+    - {dato: "Danse", valor: "Héctor Plaza"}
+    - {dato: "Durée", valor: "2 min 17 s"}
+    - {dato: "Lieu", valor: "Parc rural d'Anaga, Tenerife"}
+  boton_video: Voir sur Behance
+  pedir: Vous souhaitez collaborer avec nous ?

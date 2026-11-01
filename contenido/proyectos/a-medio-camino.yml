@@ -1,0 +1,135 @@
+grupo: gira
+orden: 1
+foto_principal: imagenes/a-medio-camino-escena.jpg
+credito_principal: Marta García Cardellach
+encuadre: 45% 40%
+video: EvVVH0t5wUU
+video_portada: imagenes/a-medio-camino-calle.jpg
+galeria:
+  - {imagen: "imagenes/a-medio-camino-calle.jpg", credito: "Aurélie Veyrat", tamano: "ancha"}
+  - {imagen: "imagenes/a-medio-camino-retrato.jpg", credito: "Marta García Cardellach", tamano: "media"}
+  - {imagen: "imagenes/a-medio-camino-trio.jpg", credito: "Marta García Cardellach", tamano: "media dcha"}
+
+es:
+  titulo: A medio camino
+  rotulo: En gira · 2025
+  datos: Trío · 23 min · Flamenco, krump y breaking · Calle y sala
+  texto: |
+    Tres cuerpos en escena que con cada gesto traen memoria y una voz que las une, las atraviesa, las sostiene.
+
+    > Del «yo» al «nosotras». Del conflicto al juego, del ritmo individual al pulso compartido.
+
+    *A medio camino* propone el encuentro del flamenco y la danza urbana contemporánea, haciendo dialogar la tradición flamenca con el krump y el breaking.
+
+    Lenguajes cargados de historia, de luchas, de identidades que buscan ser escuchadas y nombradas. Cuerpos que hablan, que gritan y que se encuentran en un espacio común.
+  ficha:
+    - {dato: "Dirección y coreografía", valor: "Agnès Sales"}
+    - {dato: "Codirección y mirada externa", valor: "Héctor Plaza"}
+    - {dato: "Creación e interpretación", valor: "Agnès Sales, Selam Ortega / Alba Folch, Miranda Alfonso / Marina Walpercin"}
+    - {dato: "Música y diseño sonoro", valor: "Daniel Munárriz"}
+    - {dato: "Voz", valor: "Júlia Cruz Sesé"}
+    - {dato: "Vestuario", valor: "Julia Vargas Cometta"}
+    - {dato: "Producción", valor: "ADUCV"}
+    - {dato: "Apoyo", valor: "Festival Hop (Barcelona)"}
+    - {dato: "Duración", valor: "23 min"}
+    - {dato: "Espacio", valor: "Calle, espacios no convencionales y sala"}
+    - {dato: "Público", valor: "Todos los públicos · Sin texto"}
+    - {dato: "Se ha visto en", valor: "Dansa Metropolitana (Terrassa, Granollers y L'Hospitalet)"}
+  boton_video: Ver el teaser
+  mas_videos:
+    - {nombre: "Pieza completa en sala", youtube: "W2LtPytdmAc", duracion: "23 min"}
+    - {nombre: "Pieza completa en calle", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
+  pedir: ¿Queréis programar *A medio camino*?
+
+ca:
+  titulo: A medio camino
+  rotulo: En gira · 2025
+  datos: Trio · 23 min · Flamenc, krump i breaking · Carrer i sala
+  texto: |
+    Tres cossos en escena que amb cada gest porten memòria i una veu que les uneix, les travessa, les sosté.
+
+    > Del «jo» al «nosaltres». Del conflicte al joc, del ritme individual al pols compartit.
+
+    *A medio camino* proposa la trobada del flamenc i la dansa urbana contemporània, fent dialogar la tradició flamenca amb el krump i el breaking.
+
+    Llenguatges carregats d'història, de lluites, d'identitats que volen ser escoltades i anomenades. Cossos que parlen, que criden i que es troben en un espai comú.
+  ficha:
+    - {dato: "Direcció i coreografia", valor: "Agnès Sales"}
+    - {dato: "Codirecció i mirada externa", valor: "Héctor Plaza"}
+    - {dato: "Creació i interpretació", valor: "Agnès Sales, Selam Ortega / Alba Folch, Miranda Alfonso / Marina Walpercin"}
+    - {dato: "Música i disseny sonor", valor: "Daniel Munárriz"}
+    - {dato: "Veu", valor: "Júlia Cruz Sesé"}
+    - {dato: "Vestuari", valor: "Julia Vargas Cometta"}
+    - {dato: "Producció", valor: "ADUCV"}
+    - {dato: "Suport", valor: "Festival Hop (Barcelona)"}
+    - {dato: "Durada", valor: "23 min"}
+    - {dato: "Espai", valor: "Carrer, espais no convencionals i sala"}
+    - {dato: "Públic", valor: "Tots els públics · Sense text"}
+    - {dato: "S'ha vist a", valor: "Dansa Metropolitana (Terrassa, Granollers i L'Hospitalet)"}
+  boton_video: Mira el teaser
+  mas_videos:
+    - {nombre: "Peça completa en sala", youtube: "W2LtPytdmAc", duracion: "23 min"}
+    - {nombre: "Peça completa al carrer", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
+  pedir: Voleu programar *A medio camino*?
+
+en:
+  titulo: A medio camino
+  rotulo: On tour · 2025
+  datos: Trio · 23 min · Flamenco, krump and breaking · Street and stage
+  texto: |
+    Three bodies on stage, each gesture carrying memory, and one voice that binds them, runs through them and holds them.
+
+    > From “I” to “we”. From conflict to play, from individual rhythm to a shared pulse.
+
+    *A medio camino* (Halfway) brings flamenco and contemporary urban dance together, setting the flamenco tradition in dialogue with krump and breaking.
+
+    Languages charged with history, with struggle, with identities that ask to be heard and named. Bodies that speak, shout and meet in a common space.
+  ficha:
+    - {dato: "Direction and choreography", valor: "Agnès Sales"}
+    - {dato: "Co-direction and outside eye", valor: "Héctor Plaza"}
+    - {dato: "Created and performed by", valor: "Agnès Sales, Selam Ortega / Alba Folch, Miranda Alfonso / Marina Walpercin"}
+    - {dato: "Music and sound design", valor: "Daniel Munárriz"}
+    - {dato: "Voice", valor: "Júlia Cruz Sesé"}
+    - {dato: "Costumes", valor: "Julia Vargas Cometta"}
+    - {dato: "Production", valor: "ADUCV"}
+    - {dato: "Support", valor: "Festival Hop (Barcelona)"}
+    - {dato: "Duration", valor: "23 min"}
+    - {dato: "Space", valor: "Street, non-conventional spaces and stage"}
+    - {dato: "Audience", valor: "All ages · No text"}
+    - {dato: "Performed at", valor: "Dansa Metropolitana (Terrassa, Granollers and L'Hospitalet)"}
+  boton_video: Watch the teaser
+  mas_videos:
+    - {nombre: "Full piece on stage", youtube: "W2LtPytdmAc", duracion: "23 min"}
+    - {nombre: "Full piece in the street", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
+  pedir: Would you like to programme *A medio camino*?
+
+fr:
+  titulo: A medio camino
+  rotulo: En tournée · 2025
+  datos: Trio · 23 min · Flamenco, krump et breaking · Rue et salle
+  texto: |
+    Trois corps sur scène qui, à chaque geste, portent une mémoire, et une voix qui les unit, les traverse et les soutient.
+
+    > Du « je » au « nous ». Du conflit au jeu, du rythme individuel au pouls partagé.
+
+    *A medio camino* (À mi-chemin) fait se rencontrer le flamenco et la danse urbaine contemporaine, en faisant dialoguer la tradition flamenca avec le krump et le breaking.
+
+    Des langages chargés d'histoire, de luttes, d'identités qui cherchent à être écoutées et nommées. Des corps qui parlent, qui crient et qui se retrouvent dans un espace commun.
+  ficha:
+    - {dato: "Direction et chorégraphie", valor: "Agnès Sales"}
+    - {dato: "Codirection et regard extérieur", valor: "Héctor Plaza"}
+    - {dato: "Création et interprétation", valor: "Agnès Sales, Selam Ortega / Alba Folch, Miranda Alfonso / Marina Walpercin"}
+    - {dato: "Musique et création sonore", valor: "Daniel Munárriz"}
+    - {dato: "Voix", valor: "Júlia Cruz Sesé"}
+    - {dato: "Costumes", valor: "Julia Vargas Cometta"}
+    - {dato: "Production", valor: "ADUCV"}
+    - {dato: "Soutien", valor: "Festival Hop (Barcelone)"}
+    - {dato: "Durée", valor: "23 min"}
+    - {dato: "Espace", valor: "Rue, lieux non conventionnels et salle"}
+    - {dato: "Public", valor: "Tout public · Sans texte"}
+    - {dato: "Présentée à", valor: "Dansa Metropolitana (Terrassa, Granollers et L'Hospitalet)"}
+  boton_video: Voir le teaser
+  mas_videos:
+    - {nombre: "Pièce intégrale en salle", youtube: "W2LtPytdmAc", duracion: "23 min"}
+    - {nombre: "Pièce intégrale en rue", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
+  pedir: Vous souhaitez programmer *A medio camino* ?

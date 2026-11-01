@@ -1,0 +1,103 @@
+grupo: gira
+orden: 3
+foto_principal: imagenes/blue-monday-sala.jpg
+credito_principal: Little Shao
+encuadre: 50% 40%
+video: yZ76sHGSchw
+video_portada: imagenes/blue-monday-calle.jpg
+galeria:
+  - {imagen: "imagenes/blue-monday-calle.jpg", credito: "Marta García Cardellach", tamano: "ancha"}
+  - {imagen: "imagenes/blue-monday-02.jpg", credito: "Marta García Cardellach", tamano: "media"}
+  - {imagen: "imagenes/blue-monday-03.jpg", credito: "Little Shao", tamano: "media dcha"}
+
+es:
+  titulo: Blue Monday
+  rotulo: En gira · 2019
+  datos: Dúo · 13 min · Calle y sala
+  texto: |
+    *Blue Monday* nos habla sobre las relaciones humanas, la necesidad y la dependencia del ser humano hacia ellas; y sobre la urgencia de sostener a los demás sin apenas sostenernos a nosotros mismos.
+
+    > Intimidad, simbiosis, dependencia y transformación son algunas de las palabras que definen *Blue Monday*.
+
+    Esta pieza, tercera creación del dúo Agnès Sales y Héctor Plaza, fue desarrollada durante el proyecto laboratorio «Back to the Lab» impulsado por el festival Breakin' Convention en el teatro Sadler's Wells de Londres.
+  ficha:
+    - {dato: "Creación e interpretación", valor: "Agnès Sales y Héctor Plaza"}
+    - {dato: "Duración", valor: "13 min"}
+    - {dato: "Espacio", valor: "Calle y sala"}
+    - {dato: "Origen", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, Londres)"}
+  boton_video: Ver el tráiler
+  mas_videos:
+    - {nombre: "Tráiler en sala", youtube: "Yi-b34JRcog"}
+    - {nombre: "Versión de 5 a 6 minutos", youtube: "F-59OqQP6T8", duracion: "6 min"}
+    - {nombre: "Pieza completa en calle", youtube: "kIkhm1zSF8E", duracion: "13 min"}
+    - {nombre: "Pieza completa en sala", youtube: "fzHFmR_9tUE", duracion: "13 min"}
+  pedir: ¿Queréis programar *Blue Monday*?
+
+ca:
+  titulo: Blue Monday
+  rotulo: En gira · 2019
+  datos: Duet · 13 min · Carrer i sala
+  texto: |
+    *Blue Monday* parla de les relacions humanes, de la necessitat i la dependència que en tenim; i de la urgència de sostenir els altres quan amb prou feines ens sostenim a nosaltres mateixos.
+
+    > Intimitat, simbiosi, dependència i transformació són algunes de les paraules que defineixen *Blue Monday*.
+
+    Aquesta peça, tercera creació del duet Agnès Sales i Héctor Plaza, es va desenvolupar durant el laboratori «Back to the Lab» impulsat pel festival Breakin' Convention al teatre Sadler's Wells de Londres.
+  ficha:
+    - {dato: "Creació i interpretació", valor: "Agnès Sales i Héctor Plaza"}
+    - {dato: "Durada", valor: "13 min"}
+    - {dato: "Espai", valor: "Carrer i sala"}
+    - {dato: "Origen", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, Londres)"}
+  boton_video: Mira el tràiler
+  mas_videos:
+    - {nombre: "Tràiler en sala", youtube: "Yi-b34JRcog"}
+    - {nombre: "Versió de 5 a 6 minuts", youtube: "F-59OqQP6T8", duracion: "6 min"}
+    - {nombre: "Peça completa al carrer", youtube: "kIkhm1zSF8E", duracion: "13 min"}
+    - {nombre: "Peça completa en sala", youtube: "fzHFmR_9tUE", duracion: "13 min"}
+  pedir: Voleu programar *Blue Monday*?
+
+en:
+  titulo: Blue Monday
+  rotulo: On tour · 2019
+  datos: Duet · 13 min · Street and stage
+  texto: |
+    *Blue Monday* is about human relationships, our need for them and our dependence on them, and about the urgency of holding others up when we can barely hold ourselves.
+
+    > Intimacy, symbiosis, dependence and transformation are some of the words that define *Blue Monday*.
+
+    The third creation by the duo Agnès Sales and Héctor Plaza, the piece was developed during “Back to the Lab”, the laboratory run by Breakin' Convention at Sadler's Wells, London.
+  ficha:
+    - {dato: "Created and performed by", valor: "Agnès Sales and Héctor Plaza"}
+    - {dato: "Duration", valor: "13 min"}
+    - {dato: "Space", valor: "Street and stage"}
+    - {dato: "Origin", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, London)"}
+  boton_video: Watch the trailer
+  mas_videos:
+    - {nombre: "Stage trailer", youtube: "Yi-b34JRcog"}
+    - {nombre: "5–6 minute version", youtube: "F-59OqQP6T8", duracion: "6 min"}
+    - {nombre: "Full piece in the street", youtube: "kIkhm1zSF8E", duracion: "13 min"}
+    - {nombre: "Full piece on stage", youtube: "fzHFmR_9tUE", duracion: "13 min"}
+  pedir: Would you like to programme *Blue Monday*?
+
+fr:
+  titulo: Blue Monday
+  rotulo: En tournée · 2019
+  datos: Duo · 13 min · Rue et salle
+  texto: |
+    *Blue Monday* parle des relations humaines, du besoin que nous en avons et de la dépendance qu'elles créent ; et de l'urgence de soutenir les autres alors que nous parvenons à peine à nous soutenir nous-mêmes.
+
+    > Intimité, symbiose, dépendance et transformation sont quelques-uns des mots qui définissent *Blue Monday*.
+
+    Troisième création du duo Agnès Sales et Héctor Plaza, la pièce a été développée lors du laboratoire « Back to the Lab » du festival Breakin' Convention, au théâtre Sadler's Wells de Londres.
+  ficha:
+    - {dato: "Création et interprétation", valor: "Agnès Sales et Héctor Plaza"}
+    - {dato: "Durée", valor: "13 min"}
+    - {dato: "Espace", valor: "Rue et salle"}
+    - {dato: "Origine", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, Londres)"}
+  boton_video: Voir la bande-annonce
+  mas_videos:
+    - {nombre: "Bande-annonce en salle", youtube: "Yi-b34JRcog"}
+    - {nombre: "Version de 5 à 6 minutes", youtube: "F-59OqQP6T8", duracion: "6 min"}
+    - {nombre: "Pièce intégrale en rue", youtube: "kIkhm1zSF8E", duracion: "13 min"}
+    - {nombre: "Pièce intégrale en salle", youtube: "fzHFmR_9tUE", duracion: "13 min"}
+  pedir: Vous souhaitez programmer *Blue Monday* ?

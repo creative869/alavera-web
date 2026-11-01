@@ -1,0 +1,96 @@
+# Textos que se repiten en todas las páginas (menú, pie, botones) y datos de contacto.
+correo: contact@alavera.org
+instagram: https://www.instagram.com/alavera.danza/
+legal: "ALAVERA es un proyecto de ADUCV, Associació de Dansa Urbana Contemporània del Vallès · NIF G26784561"
+
+es:
+  menu_gira: En gira
+  menu_pedagogia: Pedagogía
+  menu_colaboraciones: Colaboraciones
+  menu_compania: Compañía
+  inicio: Inicio
+  contacto: Contacto
+  abrir_menu: Abrir menú
+  cerrar: Cerrar
+  idioma: Idioma
+  escribenos: Escríbenos
+  derechos: "© 2026 ALAVERA — todos los derechos reservados"
+  copiar: Copiar correo
+  copiado: Copiado
+  anterior: Anterior
+  siguiente: Siguiente
+  foto: Foto
+  pedir_texto: Escríbenos y te enviamos el dossier, la ficha técnica y las condiciones.
+  descripcion: "ALAVERA, proyecto creativo de Agnès Sales y Héctor Plaza de creación escénica desde la danza urbana. Barcelona."
+  no_existe: Esta página no existe
+  no_existe_texto: Puede que la dirección haya cambiado.
+  volver: Volver al inicio
+
+ca:
+  menu_gira: En gira
+  menu_pedagogia: Pedagogia
+  menu_colaboraciones: Col·laboracions
+  menu_compania: Companyia
+  inicio: Inici
+  contacto: Contacte
+  abrir_menu: Obre el menú
+  cerrar: Tanca
+  idioma: Idioma
+  escribenos: Escriu-nos
+  derechos: "© 2026 ALAVERA — tots els drets reservats"
+  copiar: Copia el correu
+  copiado: Copiat
+  anterior: Anterior
+  siguiente: Següent
+  foto: Foto
+  pedir_texto: Escriu-nos i t'enviarem el dossier, la fitxa tècnica i les condicions.
+  descripcion: "ALAVERA, projecte creatiu d'Agnès Sales i Héctor Plaza de creació escènica des de la dansa urbana. Barcelona."
+  no_existe: Aquesta pàgina no existeix
+  no_existe_texto: Potser l'adreça ha canviat.
+  volver: Torna a l'inici
+
+en:
+  menu_gira: On tour
+  menu_pedagogia: Teaching
+  menu_colaboraciones: Collaborations
+  menu_compania: Company
+  inicio: Home
+  contacto: Contact
+  abrir_menu: Open menu
+  cerrar: Close
+  idioma: Language
+  escribenos: Write to us
+  derechos: "© 2026 ALAVERA — all rights reserved"
+  copiar: Copy email
+  copiado: Copied
+  anterior: Previous
+  siguiente: Next
+  foto: Photo
+  pedir_texto: Write to us and we'll send you the dossier, the tech rider and our terms.
+  descripcion: "ALAVERA, the creative project of Agnès Sales and Héctor Plaza: stage work rooted in urban dance. Barcelona."
+  no_existe: This page doesn't exist
+  no_existe_texto: The address may have changed.
+  volver: Back to the home page
+
+fr:
+  menu_gira: En tournée
+  menu_pedagogia: Pédagogie
+  menu_colaboraciones: Collaborations
+  menu_compania: Compagnie
+  inicio: Accueil
+  contacto: Contact
+  abrir_menu: Ouvrir le menu
+  cerrar: Fermer
+  idioma: Langue
+  escribenos: Écrivez-nous
+  derechos: "© 2026 ALAVERA — tous droits réservés"
+  copiar: Copier l'adresse
+  copiado: Copiée
+  anterior: Précédent
+  siguiente: Suivant
+  foto: Photo
+  pedir_texto: Écrivez-nous et nous vous enverrons le dossier, la fiche technique et nos conditions.
+  descripcion: "ALAVERA, projet créatif d'Agnès Sales et Héctor Plaza : création scénique à partir de la danse urbaine. Barcelone."
+  no_existe: Cette page n'existe pas
+  no_existe_texto: L'adresse a peut-être changé.
+  volver: Retour à l'accueil

@@ -1,0 +1,65 @@
+grupo: pedagogia
+orden: 3
+foto_principal: imagenes/comunitarios-grupo.jpg
+credito_principal: Claudia Herran
+encuadre: 50% 45%
+video: ""
+video_portada: ""
+galeria:
+  - {imagen: "imagenes/comunitarios-01.jpg", credito: "", tamano: "ancha"}
+
+es:
+  titulo: Proyectos comunitarios
+  rotulo: Pedagogía · Centros, barrios y grupos
+  datos: Creación colectiva · Largo plazo
+  texto: |
+    Procesos de creación con grupos no profesionales en los que la danza se convierte en una herramienta de expresión, de escucha y de encuentro.
+
+    > Como *En Residència*, en el Institut Escola La Mina de Barcelona (2025).
+  ficha:
+    - {dato: "Para", valor: "Centros educativos, barrios y grupos"}
+    - {dato: "Formato", valor: "Proceso de creación a largo plazo"}
+    - {dato: "Proyecto reciente", valor: "En Residència · Institut Escola La Mina (Barcelona, 2025)"}
+  pedir: ¿Tenéis un grupo con ganas de crear?
+
+ca:
+  titulo: Projectes comunitaris
+  rotulo: Pedagogia · Centres, barris i grups
+  datos: Creació col·lectiva · Llarg termini
+  texto: |
+    Processos de creació amb grups no professionals en què la dansa esdevé una eina d'expressió, d'escolta i de trobada.
+
+    > Com *En Residència*, a l'Institut Escola La Mina de Barcelona (2025).
+  ficha:
+    - {dato: "Per a", valor: "Centres educatius, barris i grups"}
+    - {dato: "Format", valor: "Procés de creació a llarg termini"}
+    - {dato: "Projecte recent", valor: "En Residència · Institut Escola La Mina (Barcelona, 2025)"}
+  pedir: Teniu un grup amb ganes de crear?
+
+en:
+  titulo: Community projects
+  rotulo: Teaching · Schools, neighbourhoods and groups
+  datos: Collective creation · Long term
+  texto: |
+    Creative processes with non-professional groups, where dance becomes a tool for expression, listening and encounter.
+
+    > Like *En Residència*, at Institut Escola La Mina in Barcelona (2025).
+  ficha:
+    - {dato: "For", valor: "Schools, neighbourhoods and groups"}
+    - {dato: "Format", valor: "Long-term creative process"}
+    - {dato: "Recent project", valor: "En Residència · Institut Escola La Mina (Barcelona, 2025)"}
+  pedir: Do you have a group that wants to create?
+
+fr:
+  titulo: Projets participatifs
+  rotulo: Pédagogie · Établissements, quartiers et groupes
+  datos: Création collective · Long terme
+  texto: |
+    Des processus de création avec des groupes amateurs, où la danse devient un outil d'expression, d'écoute et de rencontre.
+
+    > Comme *En Residència*, à l'Institut Escola La Mina de Barcelone (2025).
+  ficha:
+    - {dato: "Pour", valor: "Établissements scolaires, quartiers et groupes"}
+    - {dato: "Format", valor: "Processus de création sur le long terme"}
+    - {dato: "Projet récent", valor: "En Residència · Institut Escola La Mina (Barcelone, 2025)"}
+  pedir: Vous avez un groupe qui a envie de créer ?

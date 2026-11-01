@@ -1,0 +1,126 @@
+grupo: gira
+orden: 2
+foto_principal: imagenes/happy-everything-portada.jpg
+credito_principal: Aurélie Veyrat
+encuadre: 45% 50%
+video: vXSSdbAmSH8
+video_portada: imagenes/happy-everything-01.jpg
+galeria:
+  - {imagen: "imagenes/happy-everything-01.jpg", credito: "Rebecca Anne Peters", tamano: "ancha"}
+  - {imagen: "imagenes/happy-everything-02.jpg", credito: "Aurélie Veyrat", tamano: "media"}
+# Bloque que enlaza con la versión para institutos
+tambien:
+  proyecto: institutos
+  imagen: imagenes/institutos.jpg
+
+es:
+  titulo: Happy Everything
+  rotulo: En gira · 2020
+  datos: Solo · 15 min · Danzas urbanas, danza contemporánea y teatro físico
+  texto: |
+    *Happy Everything* investiga el concepto contemporáneo de la felicidad: su celebración constante, su mercantilización y la industria que la envuelve. Un estado presentado como obligatorio, visible y permanente, impulsado por el marketing, las festividades y las narrativas de una vida «perfecta».
+
+    A través de una fisicalidad híbrida entre danzas urbanas, danza contemporánea y teatro físico, la pieza explora la fricción que surge cuando la felicidad deja de ser una experiencia íntima para convertirse en una expectativa social.
+
+    > ¿Qué ocurre cuando estar bien se vuelve una imposición? ¿Qué espacio queda para la vulnerabilidad, la duda o el malestar?
+
+    Lejos de una felicidad auténtica, *Happy Everything* revela el desgaste, la presión y el vacío que produce este mandato constante, cuestionando cómo estas imágenes prefabricadas influyen en nuestra salud mental y en la manera en que habitamos nuestro día a día.
+  ficha:
+    - {dato: "Dirección y coreografía", valor: "Agnès Sales y Héctor Plaza"}
+    - {dato: "Interpretación", valor: "Agnès Sales"}
+    - {dato: "Música", valor: "Genaro Cibils"}
+    - {dato: "Duración", valor: "15 min"}
+    - {dato: "Espacio", valor: "Sala y calle"}
+    - {dato: "Premio", valor: "Premio NunArt, Certamen de Sabadell"}
+    - {dato: "Versión pedagógica", valor: "Actuación y charla sobre salud mental para ESO y Bachillerato"}
+  boton_video: Ver el tráiler
+  mas_videos:
+    - {nombre: "Versión de 6 minutos", youtube: "wO6v5oJAAjY", duracion: "6 min"}
+  tambien_rotulo: También en institutos
+  tambien_texto: El solo en directo y una charla sobre salud mental con una psicóloga. Para ESO y Bachillerato, 50–55 min.
+  tambien_enlace: Ver la propuesta para institutos →
+  pedir: ¿Queréis programar *Happy Everything*?
+
+ca:
+  titulo: Happy Everything
+  rotulo: En gira · 2020
+  datos: Solo · 15 min · Danses urbanes, dansa contemporània i teatre físic
+  texto: |
+    *Happy Everything* investiga el concepte contemporani de la felicitat: la seva celebració constant, la seva mercantilització i la indústria que l'envolta. Un estat presentat com a obligatori, visible i permanent, impulsat pel màrqueting, les festivitats i els relats d'una vida «perfecta».
+
+    A través d'una fisicalitat híbrida entre danses urbanes, dansa contemporània i teatre físic, la peça explora la fricció que sorgeix quan la felicitat deixa de ser una experiència íntima per convertir-se en una expectativa social.
+
+    > Què passa quan estar bé esdevé una imposició? Quin espai queda per a la vulnerabilitat, el dubte o el malestar?
+
+    Lluny d'una felicitat autèntica, *Happy Everything* revela el desgast, la pressió i el buit que produeix aquest mandat constant, i qüestiona com aquestes imatges prefabricades influeixen en la nostra salut mental i en la manera com habitem el dia a dia.
+  ficha:
+    - {dato: "Direcció i coreografia", valor: "Agnès Sales i Héctor Plaza"}
+    - {dato: "Interpretació", valor: "Agnès Sales"}
+    - {dato: "Música", valor: "Genaro Cibils"}
+    - {dato: "Durada", valor: "15 min"}
+    - {dato: "Espai", valor: "Sala i carrer"}
+    - {dato: "Premi", valor: "Premi NunArt, Certamen de Sabadell"}
+    - {dato: "Versió pedagògica", valor: "Actuació i xerrada sobre salut mental per a ESO i Batxillerat"}
+  boton_video: Mira el tràiler
+  mas_videos:
+    - {nombre: "Versió de 6 minuts", youtube: "wO6v5oJAAjY", duracion: "6 min"}
+  tambien_rotulo: També als instituts
+  tambien_texto: El solo en directe i una xerrada sobre salut mental amb una psicòloga. Per a ESO i Batxillerat, 50–55 min.
+  tambien_enlace: Mira la proposta per a instituts →
+  pedir: Voleu programar *Happy Everything*?
+
+en:
+  titulo: Happy Everything
+  rotulo: On tour · 2020
+  datos: Solo · 15 min · Urban dance, contemporary dance and physical theatre
+  texto: |
+    *Happy Everything* looks at today's idea of happiness: its constant celebration, its commodification and the industry built around it. A state presented as compulsory, visible and permanent, driven by marketing, festivities and the story of a “perfect” life.
+
+    Through a hybrid physicality that mixes urban dance, contemporary dance and physical theatre, the piece explores the friction that appears when happiness stops being an intimate experience and becomes a social expectation.
+
+    > What happens when being okay becomes an obligation? What room is left for vulnerability, doubt or distress?
+
+    Far from genuine happiness, *Happy Everything* exposes the exhaustion, pressure and emptiness this constant demand produces, and questions how these ready-made images shape our mental health and the way we live our everyday lives.
+  ficha:
+    - {dato: "Direction and choreography", valor: "Agnès Sales and Héctor Plaza"}
+    - {dato: "Performer", valor: "Agnès Sales"}
+    - {dato: "Music", valor: "Genaro Cibils"}
+    - {dato: "Duration", valor: "15 min"}
+    - {dato: "Space", valor: "Stage and street"}
+    - {dato: "Award", valor: "NunArt Award, Sabadell Competition"}
+    - {dato: "Schools version", valor: "Performance and talk on mental health for secondary schools"}
+  boton_video: Watch the trailer
+  mas_videos:
+    - {nombre: "6-minute version", youtube: "wO6v5oJAAjY", duracion: "6 min"}
+  tambien_rotulo: Also in schools
+  tambien_texto: The solo performed live and a talk on mental health with a psychologist. For secondary schools, 50–55 min.
+  tambien_enlace: See the schools programme →
+  pedir: Would you like to programme *Happy Everything*?
+
+fr:
+  titulo: Happy Everything
+  rotulo: En tournée · 2020
+  datos: Solo · 15 min · Danses urbaines, danse contemporaine et théâtre physique
+  texto: |
+    *Happy Everything* interroge la notion contemporaine du bonheur : sa célébration permanente, sa marchandisation et l'industrie qui l'entoure. Un état présenté comme obligatoire, visible et permanent, porté par le marketing, les fêtes et le récit d'une vie « parfaite ».
+
+    À travers une physicalité hybride entre danses urbaines, danse contemporaine et théâtre physique, la pièce explore la friction qui naît lorsque le bonheur cesse d'être une expérience intime pour devenir une attente sociale.
+
+    > Que se passe-t-il quand aller bien devient une injonction ? Quelle place reste-t-il pour la vulnérabilité, le doute ou le mal-être ?
+
+    Loin d'un bonheur authentique, *Happy Everything* révèle l'usure, la pression et le vide que produit cette injonction permanente, et questionne la manière dont ces images préfabriquées influencent notre santé mentale et notre façon d'habiter le quotidien.
+  ficha:
+    - {dato: "Direction et chorégraphie", valor: "Agnès Sales et Héctor Plaza"}
+    - {dato: "Interprète", valor: "Agnès Sales"}
+    - {dato: "Musique", valor: "Genaro Cibils"}
+    - {dato: "Durée", valor: "15 min"}
+    - {dato: "Espace", valor: "Salle et rue"}
+    - {dato: "Prix", valor: "Prix NunArt, Concours de Sabadell"}
+    - {dato: "Version scolaire", valor: "Représentation et échange sur la santé mentale pour collèges et lycées"}
+  boton_video: Voir la bande-annonce
+  mas_videos:
+    - {nombre: "Version de 6 minutes", youtube: "wO6v5oJAAjY", duracion: "6 min"}
+  tambien_rotulo: Aussi au collège et au lycée
+  tambien_texto: Le solo en direct et un échange sur la santé mentale avec une psychologue. Pour collèges et lycées, 50–55 min.
+  tambien_enlace: Voir la proposition pour les établissements →
+  pedir: Vous souhaitez programmer *Happy Everything* ?

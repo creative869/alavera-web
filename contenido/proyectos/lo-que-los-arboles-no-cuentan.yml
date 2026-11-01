@@ -1,0 +1,83 @@
+# Aparece en "Colaboraciones" y también en "En gira" (comparte página).
+grupo: colaboraciones
+tambien_en: gira
+orden: 4
+foto_principal: imagenes/arboles-01.jpg
+credito_principal: Abril en Dansa
+encuadre: 50% 45%
+video: 5P6Cp6E0_u4
+video_portada: imagenes/arboles-02.jpg
+galeria:
+  - {imagen: "imagenes/arboles-02.jpg", credito: "Abril en Dansa", tamano: "ancha"}
+
+es:
+  titulo: Lo que los árboles no cuentan
+  rotulo: Colaboraciones · En gira · Coproducción
+  datos: Dúo · Espacio público
+  texto: |
+    Una reflexión bailada sobre los paralelismos entre la naturaleza y el ser humano, sobre lo que compartimos.
+
+    > Un dúo para espacio público creado e interpretado por Héctor Plaza y Kiko López.
+
+    Coproducción de Héctor Plaza y Kiko López, fuera del repertorio de la compañía y seleccionada en el Catálogo Danza a Escena 2027 de La Red.
+  ficha:
+    - {dato: "Creación e interpretación", valor: "Héctor Plaza y Kiko López"}
+    - {dato: "Espacio", valor: "Espacio público"}
+    - {dato: "Catálogo", valor: "Danza a Escena 2027, La Red"}
+    - {dato: "Gira", valor: "Tanec Praha 2026 (Chequia), Tardor en Dansa, Sant Pau (Valencia)"}
+  boton_video: Ver la pieza
+  pedir: ¿Queréis programar *Lo que los árboles no cuentan*?
+
+ca:
+  titulo: Lo que los árboles no cuentan
+  rotulo: Col·laboracions · En gira · Coproducció
+  datos: Duet · Espai públic
+  texto: |
+    Una reflexió ballada sobre els paral·lelismes entre la natura i l'ésser humà, sobre allò que compartim.
+
+    > Un duet per a espai públic creat i interpretat per Héctor Plaza i Kiko López.
+
+    Coproducció d'Héctor Plaza i Kiko López, fora del repertori de la companyia i seleccionada al Catàleg Danza a Escena 2027 de La Red.
+  ficha:
+    - {dato: "Creació i interpretació", valor: "Héctor Plaza i Kiko López"}
+    - {dato: "Espai", valor: "Espai públic"}
+    - {dato: "Catàleg", valor: "Danza a Escena 2027, La Red"}
+    - {dato: "Gira", valor: "Tanec Praha 2026 (Txèquia), Tardor en Dansa, Sant Pau (València)"}
+  boton_video: Mira la peça
+  pedir: Voleu programar *Lo que los árboles no cuentan*?
+
+en:
+  titulo: Lo que los árboles no cuentan
+  rotulo: Collaborations · On tour · Co-production
+  datos: Duet · Public space
+  texto: |
+    *What Trees Don't Tell*: a danced reflection on the parallels between nature and human beings, on what we share.
+
+    > A duet for public space created and performed by Héctor Plaza and Kiko López.
+
+    A co-production by Héctor Plaza and Kiko López, outside the company's repertoire, selected for La Red's Danza a Escena 2027 catalogue.
+  ficha:
+    - {dato: "Created and performed by", valor: "Héctor Plaza and Kiko López"}
+    - {dato: "Space", valor: "Public space"}
+    - {dato: "Catalogue", valor: "Danza a Escena 2027, La Red"}
+    - {dato: "Touring", valor: "Tanec Praha 2026 (Czech Republic), Tardor en Dansa, Sant Pau (Valencia)"}
+  boton_video: Watch the piece
+  pedir: Would you like to programme *Lo que los árboles no cuentan*?
+
+fr:
+  titulo: Lo que los árboles no cuentan
+  rotulo: Collaborations · En tournée · Coproduction
+  datos: Duo · Espace public
+  texto: |
+    *Ce que les arbres ne racontent pas* : une réflexion dansée sur les parallèles entre la nature et l'être humain, sur ce que nous partageons.
+
+    > Un duo pour l'espace public créé et interprété par Héctor Plaza et Kiko López.
+
+    Coproduction d'Héctor Plaza et Kiko López, hors répertoire de la compagnie, sélectionnée au catalogue Danza a Escena 2027 de La Red.
+  ficha:
+    - {dato: "Création et interprétation", valor: "Héctor Plaza et Kiko López"}
+    - {dato: "Espace", valor: "Espace public"}
+    - {dato: "Catalogue", valor: "Danza a Escena 2027, La Red"}
+    - {dato: "Tournée", valor: "Tanec Praha 2026 (Tchéquie), Tardor en Dansa, Sant Pau (Valence)"}
+  boton_video: Voir la pièce
+  pedir: Vous souhaitez programmer *Lo que los árboles no cuentan* ?

@@ -1,0 +1,72 @@
+grupo: colaboraciones
+orden: 1
+foto_principal: imagenes/treinta-segundos.jpg
+credito_principal: ""
+encuadre: 50% 50%
+video: dF0vBiFru0A
+video_portada: imagenes/treinta-segundos.jpg
+galeria: []
+
+es:
+  titulo: Treinta segundos
+  rotulo: Colaboraciones · Videodanza · 2025
+  datos: Videodanza · 3 min 28 s
+  texto: |
+    Un videodanza sobre el recuerdo, alrededor de una mesa y un café.
+
+    Interpretado por Agnès Sales y Héctor Plaza, en colaboración con Julia Vargas.
+  ficha:
+    - {dato: "Interpretación", valor: "Agnès Sales y Héctor Plaza"}
+    - {dato: "Colaboración", valor: "Julia Vargas"}
+    - {dato: "Duración", valor: "3 min 28 s"}
+    - {dato: "Año", valor: "2025"}
+  boton_video: Ver el vídeo
+  pedir: ¿Quieres proyectarlo o colaborar con nosotros?
+
+ca:
+  titulo: Treinta segundos
+  rotulo: Col·laboracions · Videodansa · 2025
+  datos: Videodansa · 3 min 28 s
+  texto: |
+    Un videodansa sobre el record, al voltant d'una taula i un cafè.
+
+    Interpretat per Agnès Sales i Héctor Plaza, en col·laboració amb Julia Vargas.
+  ficha:
+    - {dato: "Interpretació", valor: "Agnès Sales i Héctor Plaza"}
+    - {dato: "Col·laboració", valor: "Julia Vargas"}
+    - {dato: "Durada", valor: "3 min 28 s"}
+    - {dato: "Any", valor: "2025"}
+  boton_video: Mira el vídeo
+  pedir: Vols projectar-lo o col·laborar amb nosaltres?
+
+en:
+  titulo: Treinta segundos
+  rotulo: Collaborations · Dance film · 2025
+  datos: Dance film · 3 min 28 s
+  texto: |
+    *Thirty Seconds*: a dance film about memory, around a table and a cup of coffee.
+
+    Performed by Agnès Sales and Héctor Plaza, in collaboration with Julia Vargas.
+  ficha:
+    - {dato: "Performers", valor: "Agnès Sales and Héctor Plaza"}
+    - {dato: "Collaboration", valor: "Julia Vargas"}
+    - {dato: "Duration", valor: "3 min 28 s"}
+    - {dato: "Year", valor: "2025"}
+  boton_video: Watch the film
+  pedir: Would you like to screen it or collaborate with us?
+
+fr:
+  titulo: Treinta segundos
+  rotulo: Collaborations · Vidéodanse · 2025
+  datos: Vidéodanse · 3 min 28 s
+  texto: |
+    *Trente secondes* : une vidéodanse sur le souvenir, autour d'une table et d'un café.
+
+    Interprétée par Agnès Sales et Héctor Plaza, en collaboration avec Julia Vargas.
+  ficha:
+    - {dato: "Interprètes", valor: "Agnès Sales et Héctor Plaza"}
+    - {dato: "Collaboration", valor: "Julia Vargas"}
+    - {dato: "Durée", valor: "3 min 28 s"}
+    - {dato: "Année", valor: "2025"}
+  boton_video: Voir la vidéo
+  pedir: Vous souhaitez la projeter ou collaborer avec nous ?

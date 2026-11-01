@@ -1,0 +1,3092 @@
+# Panel de edición (Pages CMS: https://app.pagescms.org). Generado a partir de la estructura de /contenido.
+media:
+  input: imagenes
+  output: imagenes
+content:
+- name: inicio
+  label: Inicio
+  type: file
+  path: contenido/portada.yml
+  format: yaml
+  fields:
+  - name: carrusel
+    label: Fotos de la portada (pantalla completa)
+    type: image
+    description: Se van cambiando. La primera es la que se ve al abrir.
+    list: true
+  - name: segundos
+    label: Segundos entre foto y foto
+    type: number
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: intro
+      label: Texto de arriba a la izquierda (después de «Alavera —»)
+      type: text
+    - name: palabra
+      label: Palabra del diccionario
+      type: string
+    - name: silabas
+      label: Sílabas y pronunciación
+      type: string
+    - name: categoria
+      label: Categoría (loc. adv.)
+      type: string
+    - name: acepciones
+      label: Acepciones
+      type: string
+      list: true
+    - name: frase
+      label: Frase grande que se enciende al bajar
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_titulo
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_texto
+      label: 'Contacto: texto'
+      type: text
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: intro
+      label: Texto de arriba a la izquierda (después de «Alavera —»)
+      type: text
+    - name: palabra
+      label: Palabra del diccionario
+      type: string
+    - name: silabas
+      label: Sílabas y pronunciación
+      type: string
+    - name: categoria
+      label: Categoría (loc. adv.)
+      type: string
+    - name: acepciones
+      label: Acepciones
+      type: string
+      list: true
+    - name: frase
+      label: Frase grande que se enciende al bajar
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_titulo
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_texto
+      label: 'Contacto: texto'
+      type: text
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: intro
+      label: Texto de arriba a la izquierda (después de «Alavera —»)
+      type: text
+    - name: palabra
+      label: Palabra del diccionario
+      type: string
+    - name: silabas
+      label: Sílabas y pronunciación
+      type: string
+    - name: categoria
+      label: Categoría (loc. adv.)
+      type: string
+    - name: acepciones
+      label: Acepciones
+      type: string
+      list: true
+    - name: frase
+      label: Frase grande que se enciende al bajar
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_titulo
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_texto
+      label: 'Contacto: texto'
+      type: text
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: intro
+      label: Texto de arriba a la izquierda (después de «Alavera —»)
+      type: text
+    - name: palabra
+      label: Palabra del diccionario
+      type: string
+    - name: silabas
+      label: Sílabas y pronunciación
+      type: string
+    - name: categoria
+      label: Categoría (loc. adv.)
+      type: string
+    - name: acepciones
+      label: Acepciones
+      type: string
+      list: true
+    - name: frase
+      label: Frase grande que se enciende al bajar
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_titulo
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: contacto_texto
+      label: 'Contacto: texto'
+      type: text
+  - name: tableros
+    label: Tableros de fotos (En gira, Pedagogía, Colaboraciones)
+    type: object
+    fields:
+    - name: id
+      label: Identificador (no cambiar)
+      type: string
+    - name: titulo
+      label: Título gigante
+      type: object
+      fields:
+      - name: es
+        label: Castellano
+        type: string
+      - name: ca
+        label: Català
+        type: string
+      - name: en
+        label: English
+        type: string
+      - name: fr
+        label: Français
+        type: string
+    - name: fotos
+      label: Fotos
+      type: object
+      fields:
+      - name: proyecto
+        label: Página a la que lleva
+        type: string
+        description: 'Nombre del archivo del proyecto, por ejemplo: blue-monday'
+      - name: imagen
+        label: Foto
+        type: image
+      - name: columna
+        label: Columnas que ocupa
+        type: string
+        description: 'De 1 a 13. Ej.: 2 / 7'
+      - name: fila
+        label: Filas que ocupa
+        type: string
+        description: 'Ej.: 1 / 7'
+      - name: velocidad
+        label: Velocidad al hacer scroll
+        type: number
+        description: Entre -0.15 y 0.15. 0 = quieta
+      - name: encima
+        label: Por encima de las demás
+        type: boolean
+      - name: es
+        label: Castellano
+        type: object
+        fields:
+        - name: dato
+          label: Dato corto
+          type: string
+        - name: linea
+          label: Frase al pasar el ratón
+          type: string
+      - name: ca
+        label: Català
+        type: object
+        fields:
+        - name: dato
+          label: Dato corto
+          type: string
+        - name: linea
+          label: Frase al pasar el ratón
+          type: string
+      - name: en
+        label: English
+        type: object
+        fields:
+        - name: dato
+          label: Dato corto
+          type: string
+        - name: linea
+          label: Frase al pasar el ratón
+          type: string
+      - name: fr
+        label: Français
+        type: object
+        fields:
+        - name: dato
+          label: Dato corto
+          type: string
+        - name: linea
+          label: Frase al pasar el ratón
+          type: string
+      list: true
+    list: true
+- name: compania
+  label: Compañía
+  type: file
+  path: contenido/compania.yml
+  format: yaml
+  fields:
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 30%'
+  - name: galeria
+    label: Fotos
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: pie
+      label: Pie de foto
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo
+      type: string
+    - name: datos
+      label: Debajo del título
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: creacion_titulo
+      label: 'Bloque 1: título'
+      type: string
+    - name: creacion
+      label: 'Bloque 1: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: formacion_titulo
+      label: 'Bloque 2: título'
+      type: string
+    - name: formacion
+      label: 'Bloque 2: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: premios_titulo
+      label: 'Premios: título'
+      type: string
+    - name: premios
+      label: Premios
+      type: object
+      fields:
+      - name: premio
+        label: Premio
+        type: string
+      - name: detalle
+        label: Detalle
+        type: string
+        description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+      list: true
+    - name: pedir
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: pedir_texto
+      label: 'Contacto: texto'
+      type: string
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo
+      type: string
+    - name: datos
+      label: Debajo del título
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: creacion_titulo
+      label: 'Bloque 1: título'
+      type: string
+    - name: creacion
+      label: 'Bloque 1: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: formacion_titulo
+      label: 'Bloque 2: título'
+      type: string
+    - name: formacion
+      label: 'Bloque 2: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: premios_titulo
+      label: 'Premios: título'
+      type: string
+    - name: premios
+      label: Premios
+      type: object
+      fields:
+      - name: premio
+        label: Premio
+        type: string
+      - name: detalle
+        label: Detalle
+        type: string
+        description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+      list: true
+    - name: pedir
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: pedir_texto
+      label: 'Contacto: texto'
+      type: string
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo
+      type: string
+    - name: datos
+      label: Debajo del título
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: creacion_titulo
+      label: 'Bloque 1: título'
+      type: string
+    - name: creacion
+      label: 'Bloque 1: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: formacion_titulo
+      label: 'Bloque 2: título'
+      type: string
+    - name: formacion
+      label: 'Bloque 2: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: premios_titulo
+      label: 'Premios: título'
+      type: string
+    - name: premios
+      label: Premios
+      type: object
+      fields:
+      - name: premio
+        label: Premio
+        type: string
+      - name: detalle
+        label: Detalle
+        type: string
+        description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+      list: true
+    - name: pedir
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: pedir_texto
+      label: 'Contacto: texto'
+      type: string
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo
+      type: string
+    - name: datos
+      label: Debajo del título
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: creacion_titulo
+      label: 'Bloque 1: título'
+      type: string
+    - name: creacion
+      label: 'Bloque 1: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: formacion_titulo
+      label: 'Bloque 2: título'
+      type: string
+    - name: formacion
+      label: 'Bloque 2: texto'
+      type: text
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: premios_titulo
+      label: 'Premios: título'
+      type: string
+    - name: premios
+      label: Premios
+      type: object
+      fields:
+      - name: premio
+        label: Premio
+        type: string
+      - name: detalle
+        label: Detalle
+        type: string
+        description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+      list: true
+    - name: pedir
+      label: 'Contacto: título'
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: pedir_texto
+      label: 'Contacto: texto'
+      type: string
+- name: a_medio_camino
+  label: En gira · A medio camino
+  type: file
+  path: contenido/proyectos/a-medio-camino.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: happy_everything
+  label: En gira · Happy Everything
+  type: file
+  path: contenido/proyectos/happy-everything.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: tambien
+    label: Bloque que enlaza a otra página
+    type: object
+    fields:
+    - name: proyecto
+      label: Página
+      type: string
+    - name: imagen
+      label: Foto
+      type: image
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: tambien_rotulo
+      label: 'Bloque institutos: rótulo'
+      type: string
+    - name: tambien_texto
+      label: 'Bloque institutos: texto'
+      type: text
+    - name: tambien_enlace
+      label: 'Bloque institutos: enlace'
+      type: string
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: tambien_rotulo
+      label: 'Bloque institutos: rótulo'
+      type: string
+    - name: tambien_texto
+      label: 'Bloque institutos: texto'
+      type: text
+    - name: tambien_enlace
+      label: 'Bloque institutos: enlace'
+      type: string
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: tambien_rotulo
+      label: 'Bloque institutos: rótulo'
+      type: string
+    - name: tambien_texto
+      label: 'Bloque institutos: texto'
+      type: text
+    - name: tambien_enlace
+      label: 'Bloque institutos: enlace'
+      type: string
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+    - name: tambien_rotulo
+      label: 'Bloque institutos: rótulo'
+      type: string
+    - name: tambien_texto
+      label: 'Bloque institutos: texto'
+      type: text
+    - name: tambien_enlace
+      label: 'Bloque institutos: enlace'
+      type: string
+- name: blue_monday
+  label: En gira · Blue Monday
+  type: file
+  path: contenido/proyectos/blue-monday.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: talleres
+  label: Pedagogía · Talleres y masterclasses
+  type: file
+  path: contenido/proyectos/talleres.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: institutos
+  label: Pedagogía · Happy Everything en institutos
+  type: file
+  path: contenido/proyectos/institutos.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: comunitarios
+  label: Pedagogía · Proyectos comunitarios
+  type: file
+  path: contenido/proyectos/comunitarios.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: treinta_segundos
+  label: Colaboraciones · Treinta segundos
+  type: file
+  path: contenido/proyectos/treinta-segundos.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: anaga
+  label: Colaboraciones · Anaga
+  type: file
+  path: contenido/proyectos/anaga.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: lo_que_los_arboles_no_cuentan
+  label: Colaboraciones · Lo que los árboles no cuentan
+  type: file
+  path: contenido/proyectos/lo-que-los-arboles-no-cuentan.yml
+  format: yaml
+  fields:
+  - name: grupo
+    label: Sección
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: tambien_en
+    label: También aparece en
+    type: select
+    options:
+      values:
+      - gira
+      - pedagogia
+      - colaboraciones
+  - name: orden
+    label: Orden dentro de la sección
+    type: number
+  - name: foto_principal
+    label: Foto grande
+    type: image
+  - name: credito_principal
+    label: Crédito de la foto grande
+    type: string
+  - name: encuadre
+    label: Encuadre de la foto grande
+    type: string
+    description: 'Posición: horizontal vertical. Ej.: 50% 40%'
+  - name: video
+    label: Vídeo principal
+    type: string
+    description: Código de YouTube (lo que va después de watch?v=) o un enlace completo
+  - name: video_portada
+    label: Imagen del vídeo antes de darle al play
+    type: image
+  - name: galeria
+    label: Fotos (todas en grande)
+    type: object
+    fields:
+    - name: imagen
+      label: Foto
+      type: image
+    - name: credito
+      label: Crédito
+      type: string
+    - name: tamano
+      label: Tamaño
+      type: select
+      options:
+        values:
+        - ancha
+        - media
+        - media dcha
+    list: true
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: titulo
+      label: Título
+      type: string
+    - name: rotulo
+      label: Rótulo (encima del título)
+      type: string
+    - name: datos
+      label: Datos (debajo del título)
+      type: string
+    - name: texto
+      label: Texto
+      type: text
+      description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: ficha
+      label: Ficha
+      type: object
+      fields:
+      - name: dato
+        label: Dato
+        type: string
+      - name: valor
+        label: Valor
+        type: string
+      list: true
+    - name: boton_video
+      label: Texto del botón del vídeo
+      type: string
+    - name: mas_videos
+      label: Más vídeos (enlaces debajo del principal)
+      type: object
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: youtube
+        label: Código de YouTube
+        type: string
+        description: Lo que va después de watch?v= en el enlace
+      - name: duracion
+        label: Duración
+        type: string
+      list: true
+    - name: pedir
+      label: Frase para pedir información
+      type: string
+      description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
+- name: general
+  label: Menú, pie y botones
+  type: file
+  path: contenido/general.yml
+  format: yaml
+  fields:
+  - name: correo
+    label: Correo de contacto
+    type: string
+  - name: instagram
+    label: Enlace de Instagram
+    type: string
+  - name: legal
+    label: Texto legal del pie
+    type: string
+  - name: es
+    label: Castellano
+    type: object
+    fields:
+    - name: menu_gira
+      label: Menu gira
+      type: string
+    - name: menu_pedagogia
+      label: Menu pedagogia
+      type: string
+    - name: menu_colaboraciones
+      label: Menu colaboraciones
+      type: string
+    - name: menu_compania
+      label: Menu compania
+      type: string
+    - name: inicio
+      label: Inicio
+      type: string
+    - name: contacto
+      label: Contacto
+      type: string
+    - name: abrir_menu
+      label: Abrir menu
+      type: string
+    - name: cerrar
+      label: Cerrar
+      type: string
+    - name: idioma
+      label: Idioma
+      type: string
+    - name: escribenos
+      label: Escribenos
+      type: string
+    - name: derechos
+      label: Derechos
+      type: string
+    - name: copiar
+      label: Copiar
+      type: string
+    - name: copiado
+      label: Copiado
+      type: string
+    - name: anterior
+      label: Anterior
+      type: string
+    - name: siguiente
+      label: Siguiente
+      type: string
+    - name: foto
+      label: Foto
+      type: string
+    - name: pedir_texto
+      label: Pedir texto
+      type: string
+    - name: descripcion
+      label: Descripcion
+      type: string
+    - name: no_existe
+      label: No existe
+      type: string
+    - name: no_existe_texto
+      label: No existe texto
+      type: string
+    - name: volver
+      label: Volver
+      type: string
+  - name: ca
+    label: Català
+    type: object
+    fields:
+    - name: menu_gira
+      label: Menu gira
+      type: string
+    - name: menu_pedagogia
+      label: Menu pedagogia
+      type: string
+    - name: menu_colaboraciones
+      label: Menu colaboraciones
+      type: string
+    - name: menu_compania
+      label: Menu compania
+      type: string
+    - name: inicio
+      label: Inicio
+      type: string
+    - name: contacto
+      label: Contacto
+      type: string
+    - name: abrir_menu
+      label: Abrir menu
+      type: string
+    - name: cerrar
+      label: Cerrar
+      type: string
+    - name: idioma
+      label: Idioma
+      type: string
+    - name: escribenos
+      label: Escribenos
+      type: string
+    - name: derechos
+      label: Derechos
+      type: string
+    - name: copiar
+      label: Copiar
+      type: string
+    - name: copiado
+      label: Copiado
+      type: string
+    - name: anterior
+      label: Anterior
+      type: string
+    - name: siguiente
+      label: Siguiente
+      type: string
+    - name: foto
+      label: Foto
+      type: string
+    - name: pedir_texto
+      label: Pedir texto
+      type: string
+    - name: descripcion
+      label: Descripcion
+      type: string
+    - name: no_existe
+      label: No existe
+      type: string
+    - name: no_existe_texto
+      label: No existe texto
+      type: string
+    - name: volver
+      label: Volver
+      type: string
+  - name: en
+    label: English
+    type: object
+    fields:
+    - name: menu_gira
+      label: Menu gira
+      type: string
+    - name: menu_pedagogia
+      label: Menu pedagogia
+      type: string
+    - name: menu_colaboraciones
+      label: Menu colaboraciones
+      type: string
+    - name: menu_compania
+      label: Menu compania
+      type: string
+    - name: inicio
+      label: Inicio
+      type: string
+    - name: contacto
+      label: Contacto
+      type: string
+    - name: abrir_menu
+      label: Abrir menu
+      type: string
+    - name: cerrar
+      label: Cerrar
+      type: string
+    - name: idioma
+      label: Idioma
+      type: string
+    - name: escribenos
+      label: Escribenos
+      type: string
+    - name: derechos
+      label: Derechos
+      type: string
+    - name: copiar
+      label: Copiar
+      type: string
+    - name: copiado
+      label: Copiado
+      type: string
+    - name: anterior
+      label: Anterior
+      type: string
+    - name: siguiente
+      label: Siguiente
+      type: string
+    - name: foto
+      label: Foto
+      type: string
+    - name: pedir_texto
+      label: Pedir texto
+      type: string
+    - name: descripcion
+      label: Descripcion
+      type: string
+    - name: no_existe
+      label: No existe
+      type: string
+    - name: no_existe_texto
+      label: No existe texto
+      type: string
+    - name: volver
+      label: Volver
+      type: string
+  - name: fr
+    label: Français
+    type: object
+    fields:
+    - name: menu_gira
+      label: Menu gira
+      type: string
+    - name: menu_pedagogia
+      label: Menu pedagogia
+      type: string
+    - name: menu_colaboraciones
+      label: Menu colaboraciones
+      type: string
+    - name: menu_compania
+      label: Menu compania
+      type: string
+    - name: inicio
+      label: Inicio
+      type: string
+    - name: contacto
+      label: Contacto
+      type: string
+    - name: abrir_menu
+      label: Abrir menu
+      type: string
+    - name: cerrar
+      label: Cerrar
+      type: string
+    - name: idioma
+      label: Idioma
+      type: string
+    - name: escribenos
+      label: Escribenos
+      type: string
+    - name: derechos
+      label: Derechos
+      type: string
+    - name: copiar
+      label: Copiar
+      type: string
+    - name: copiado
+      label: Copiado
+      type: string
+    - name: anterior
+      label: Anterior
+      type: string
+    - name: siguiente
+      label: Siguiente
+      type: string
+    - name: foto
+      label: Foto
+      type: string
+    - name: pedir_texto
+      label: Pedir texto
+      type: string
+    - name: descripcion
+      label: Descripcion
+      type: string
+    - name: no_existe
+      label: No existe
+      type: string
+    - name: no_existe_texto
+      label: No existe texto
+      type: string
+    - name: volver
+      label: Volver
+      type: string

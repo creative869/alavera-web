@@ -1,0 +1,94 @@
+grupo: pedagogia
+orden: 1
+foto_principal: imagenes/talleres-sala.jpg
+credito_principal: ""
+encuadre: 50% 45%
+video: hDY_vcA3x2Q
+video_portada: imagenes/talleres-giro.jpg
+galeria:
+  - {imagen: "imagenes/talleres-salto.jpg", credito: "", tamano: "ancha"}
+  - {imagen: "imagenes/talleres-giro.jpg", credito: "", tamano: "media"}
+
+es:
+  titulo: Talleres y masterclasses
+  rotulo: Pedagogía · Festivales, escuelas y profesionales
+  datos: Suelo · Partnering · Breaking · Teatro físico
+  texto: |
+    Talleres de danza urbana contemporánea a partir del lenguaje de la compañía: suelo, partnering, breaking y teatro físico.
+
+    > Enseñamos desde el mismo lugar desde el que creamos.
+
+    Para festivales, escuelas de danza y centros culturales. Los adaptamos al nivel del grupo y a la duración que necesites, de una sesión a un trimestre.
+  ficha:
+    - {dato: "Para", valor: "Festivales, escuelas, centros culturales y profesionales"}
+    - {dato: "Duración", valor: "De 2 horas a un trimestre"}
+    - {dato: "Idiomas", valor: "Castellano, català, English, français"}
+    - {dato: "Hemos enseñado en", valor: "TNUA (Taipéi), James Carlès (Toulouse), Freiartfestival (Friburgo), Varium y Àrea (Barcelona)"}
+  boton_video: Ver una clase
+  mas_videos:
+    - {nombre: "Partnering e impro", youtube: "luo4_4GcZE4"}
+    - {nombre: "Urban Release · Agnès Sales", youtube: "wiuueR7sgeY"}
+  pedir: ¿Quieres un taller para tu festival o escuela?
+
+ca:
+  titulo: Tallers i masterclasses
+  rotulo: Pedagogia · Festivals, escoles i professionals
+  datos: Terra · Partnering · Breaking · Teatre físic
+  texto: |
+    Tallers de dansa urbana contemporània a partir del llenguatge de la companyia: terra, partnering, breaking i teatre físic.
+
+    > Ensenyem des del mateix lloc des d'on creem.
+
+    Per a festivals, escoles de dansa i centres culturals. Els adaptem al nivell del grup i a la durada que necessitis, d'una sessió a un trimestre.
+  ficha:
+    - {dato: "Per a", valor: "Festivals, escoles, centres culturals i professionals"}
+    - {dato: "Durada", valor: "De 2 hores a un trimestre"}
+    - {dato: "Idiomes", valor: "Castellano, català, English, français"}
+    - {dato: "Hem ensenyat a", valor: "TNUA (Taipei), James Carlès (Tolosa), Freiartfestival (Friburg), Varium i Àrea (Barcelona)"}
+  boton_video: Mira una classe
+  mas_videos:
+    - {nombre: "Partnering i impro", youtube: "luo4_4GcZE4"}
+    - {nombre: "Urban Release · Agnès Sales", youtube: "wiuueR7sgeY"}
+  pedir: Vols un taller per al teu festival o escola?
+
+en:
+  titulo: Workshops and masterclasses
+  rotulo: Teaching · Festivals, schools and professionals
+  datos: Floorwork · Partnering · Breaking · Physical theatre
+  texto: |
+    Contemporary urban dance workshops built on the company's language: floorwork, partnering, breaking and physical theatre.
+
+    > We teach from the same place we create from.
+
+    For festivals, dance schools and arts centres. We adapt them to the group's level and to the length you need, from a single session to a whole term.
+  ficha:
+    - {dato: "For", valor: "Festivals, schools, arts centres and professionals"}
+    - {dato: "Length", valor: "From 2 hours to a full term"}
+    - {dato: "Languages", valor: "Spanish, Catalan, English, French"}
+    - {dato: "We have taught at", valor: "TNUA (Taipei), James Carlès (Toulouse), Freiartfestival (Freiburg), Varium and Àrea (Barcelona)"}
+  boton_video: Watch a class
+  mas_videos:
+    - {nombre: "Partnering and improvisation", youtube: "luo4_4GcZE4"}
+    - {nombre: "Urban Release · Agnès Sales", youtube: "wiuueR7sgeY"}
+  pedir: Would you like a workshop for your festival or school?
+
+fr:
+  titulo: Ateliers et masterclasses
+  rotulo: Pédagogie · Festivals, écoles et professionnels
+  datos: Sol · Partnering · Breaking · Théâtre physique
+  texto: |
+    Des ateliers de danse urbaine contemporaine à partir du langage de la compagnie : travail au sol, partnering, breaking et théâtre physique.
+
+    > Nous enseignons depuis le même endroit d'où nous créons.
+
+    Pour festivals, écoles de danse et lieux culturels. Nous les adaptons au niveau du groupe et à la durée souhaitée, d'une séance à un trimestre.
+  ficha:
+    - {dato: "Pour", valor: "Festivals, écoles, lieux culturels et professionnels"}
+    - {dato: "Durée", valor: "De 2 heures à un trimestre"}
+    - {dato: "Langues", valor: "Espagnol, catalan, anglais, français"}
+    - {dato: "Nous avons enseigné à", valor: "TNUA (Taipei), James Carlès (Toulouse), Freiartfestival (Fribourg-en-Brisgau), Varium et Àrea (Barcelone)"}
+  boton_video: Voir un cours
+  mas_videos:
+    - {nombre: "Partnering et improvisation", youtube: "luo4_4GcZE4"}
+    - {nombre: "Urban Release · Agnès Sales", youtube: "wiuueR7sgeY"}
+  pedir: Vous souhaitez un atelier pour votre festival ou votre école ?

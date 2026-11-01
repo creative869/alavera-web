@@ -1,0 +1,69 @@
+grupo: pedagogia
+orden: 2
+foto_principal: imagenes/institutos.jpg
+credito_principal: ""
+encuadre: 50% 40%
+video: vXSSdbAmSH8
+video_portada: imagenes/happy-everything-portada.jpg
+galeria:
+  - {imagen: "imagenes/happy-everything-02.jpg", credito: "Aurélie Veyrat", tamano: "ancha"}
+
+es:
+  titulo: Happy Everything en institutos
+  rotulo: Pedagogía · ESO y Bachillerato
+  datos: Actuación y charla · 50–55 min
+  texto: |
+    Actuación del solo *Happy Everything* seguida de una charla sobre salud mental conducida por una psicóloga especializada.
+
+    > Un espacio para que el alumnado hable de la presión por estar bien, de la autoexigencia y de la vulnerabilidad.
+  ficha:
+    - {dato: "Para", valor: "ESO y Bachillerato"}
+    - {dato: "Duración", valor: "50–55 min"}
+    - {dato: "Formato", valor: "Actuación (15 min) y charla con psicóloga"}
+  boton_video: Ver el tráiler de la pieza
+  pedir: ¿Queréis llevarlo a vuestro instituto?
+
+ca:
+  titulo: Happy Everything als instituts
+  rotulo: Pedagogia · ESO i Batxillerat
+  datos: Actuació i xerrada · 50–55 min
+  texto: |
+    Actuació del solo *Happy Everything* seguida d'una xerrada sobre salut mental conduïda per una psicòloga especialitzada.
+
+    > Un espai perquè l'alumnat parli de la pressió per estar bé, de l'autoexigència i de la vulnerabilitat.
+  ficha:
+    - {dato: "Per a", valor: "ESO i Batxillerat"}
+    - {dato: "Durada", valor: "50–55 min"}
+    - {dato: "Format", valor: "Actuació (15 min) i xerrada amb psicòloga"}
+  boton_video: Mira el tràiler de la peça
+  pedir: Voleu portar-lo al vostre institut?
+
+en:
+  titulo: Happy Everything in schools
+  rotulo: Teaching · Secondary schools
+  datos: Performance and talk · 50–55 min
+  texto: |
+    A performance of the solo *Happy Everything* followed by a talk on mental health led by a specialised psychologist.
+
+    > A space for students to talk about the pressure to be okay, self-demand and vulnerability.
+  ficha:
+    - {dato: "For", valor: "Secondary schools (ages 12–18)"}
+    - {dato: "Length", valor: "50–55 min"}
+    - {dato: "Format", valor: "Performance (15 min) and talk with a psychologist"}
+  boton_video: Watch the trailer
+  pedir: Would you like to bring it to your school?
+
+fr:
+  titulo: Happy Everything au collège et au lycée
+  rotulo: Pédagogie · Collèges et lycées
+  datos: Représentation et échange · 50–55 min
+  texto: |
+    Représentation du solo *Happy Everything* suivie d'un échange sur la santé mentale animé par une psychologue spécialisée.
+
+    > Un espace où les élèves peuvent parler de la pression d'aller bien, de l'exigence envers soi-même et de la vulnérabilité.
+  ficha:
+    - {dato: "Pour", valor: "Collèges et lycées (12–18 ans)"}
+    - {dato: "Durée", valor: "50–55 min"}
+    - {dato: "Format", valor: "Représentation (15 min) et échange avec une psychologue"}
+  boton_video: Voir la bande-annonce
+  pedir: Vous souhaitez l'accueillir dans votre établissement ?
