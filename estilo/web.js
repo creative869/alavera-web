@@ -93,7 +93,7 @@
       if (!mueve || window.innerWidth <= 1000) {
         ['--p', '--alto', '--recorrido'].forEach(function (v) { escena.style.removeProperty(v); });
       } else {
-        var recorrido = Math.round(alto * 2.4), pausa = Math.round(alto * 1.3);
+        var recorrido = Math.round(alto * 1.7), pausa = Math.round(alto * 0.6);
         escena.style.setProperty('--alto', alto + 'px');
         escena.style.setProperty('--recorrido', (recorrido + pausa) + 'px');
         escena.style.setProperty('--p', Math.min(1, Math.max(0, window.scrollY / recorrido)).toFixed(3));

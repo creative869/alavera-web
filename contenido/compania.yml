@@ -12,15 +12,49 @@ es:
   texto: |
     ALAVERA es una compañía de danza urbana contemporánea fundada por Agnès Sales y Héctor Plaza en 2016 en Barcelona. Su lenguaje escénico nace de la mezcla entre el breaking, la danza contemporánea y el teatro físico, combinando lo artesanal con lo experimental y poniendo en valor la belleza de lo vulnerable y lo real.
 
+    Una investigación centrada en la sencillez, la honestidad física y la escucha entre cuerpos, donde la dificultad técnica no aparece como exhibición, sino como materia expresiva.
+
     > Crear. Compartir. Transformar.
+  nombre_titulo: El nombre
+  nombre_texto: "*A la vera*: al lado de algo, en su orilla. Estar a la vera de un estilo y de otro —de la danza urbana, de la contemporánea y del teatro—; de lo físico y virtuoso y de lo emocional y sencillo, sin dejar del todo ninguno."
+  bios:
+    - nombre: Agnès Sales
+      texto: "Bailarina, coreógrafa y docente. Fue gimnasta de competición y llegó al hip hop con el grupo de breaking La Cueva; ganó el BOTY France en 2015. Licenciada en Ciencias de la Actividad Física y del Deporte (INEFC Barcelona), se formó en danza contemporánea en la escuela Varium. Ha bailado con La Intrusa, Marcel et ses Drôles de Femmes, VAYA, Chriki'Z y S'Poart, y en *Macbeth* en el Gran Teatre del Liceu (2023). Codirige ALAVERA y es la intérprete de *Happy Everything* y *A medio camino*. Enseña en Àrea, Varium y el Col·legi de Teatre de Barcelona."
+    - nombre: Héctor Plaza
+      texto: "Héctor Plaza «Buba» (Valladolid) descubrió el breaking a los 12 años y a los 17 se instaló en Barcelona. En 2012 empezó a formarse en danza contemporánea en Varium y desde entonces investiga la frontera entre la danza urbana y la contemporánea. Ha sido intérprete de GN|MC Guy Nader | Maria Campos (Bienal de Venecia 2020, Romaeuropa 2021), Physical Momentum, La Intrusa y del *Macbeth* del Gran Teatre del Liceu (2023). Es cofundador de Iron Skulls Co., con la que fue candidato a los Premios Max 2024 a Mejor Coreografía. Codirige ALAVERA y enseña en Àrea y Free Zone."
   creacion_titulo: Creación
-  creacion: "Desde 2016 han creado obras como *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* y *A medio camino*, presentadas en festivales como Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red a Cielo Abierto o Dança em Trânsito, entre otros."
+  creacion: "Desde 2016 han creado obras como *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* y *A medio camino*, presentadas en festivales como Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red Acieloabierto o Dança em Trânsito, entre otros."
   formacion_titulo: Formación
-  formacion: "Además de la creación escénica, la labor pedagógica es una parte esencial de su trabajo, entendida como una extensión natural de su práctica artística y de su deseo de compartir. Han impartido formación en la TNUA (Taipéi), James Carlès (Toulouse), el Freiartfestival (Friburgo), Varium, Àrea o en proyectos socioeducativos como En Residència (Barcelona)."
+  formacion: "La labor pedagógica es una parte esencial de su trabajo, entendida como una extensión natural de su práctica artística y de su deseo de compartir. Han impartido formación en James Carlès (Toulouse), Dança em Trânsito (Brasil), Varium, Àrea o en proyectos socioeducativos como En Residència (Barcelona)."
+  trayectoria_titulo: Trayectoria
+  trayectoria:
+    - {anio: "2015", texto: "*Ehiza*, su primera pieza juntos: mención especial en el Festival HOP y residencia en El Graner."}
+    - {anio: "2016", texto: "Premio SóLODOS y Premio Ventana Abierta a la Danza en el Certamen Internacional de Coreografía Burgos-Nueva York. Gira por el circuito Red Acieloabierto (Sismògraf, Trayectos, Cádiz en Danza)."}
+    - {anio: "2017", texto: "*Ehiza* en Interplay (Turín) y en Dança em Trânsito (Río de Janeiro)."}
+    - {anio: "2018", texto: "Danza Urbana XL (Bolonia). *Las Viudas* en HOP Procesos, Mercat de les Flors."}
+    - {anio: "2019", texto: "Estreno de *Blue Monday* en Back to the Lab, de Breakin' Convention, en el Sadler's Wells de Londres. *Ehiza* entra en el catálogo Danza a Escena."}
+    - {anio: "2020", texto: "*Slapping*, con Legacy Dance Company y Gora Casado (HOP). Creación de *Happy Everything*."}
+    - {anio: "2022", texto: "Gira de *Blue Monday* por Brasil con Dança em Trânsito: siete funciones. Dansa Metropolitana."}
+    - {anio: "2024", texto: "*Happy Everything* en Dansa Metropolitana."}
+    - {anio: "2025", texto: "Estreno de *A medio camino*, tras una residencia en La Caldera con el Festival HOP. Mención premiada en el XX Certamen Coreogràfic de Sabadell."}
+    - {anio: "2026", texto: "La compañía pasa a llamarse ALAVERA. *A medio camino* en Dansa Metropolitana. *Distrito V*, nueva creación, seleccionada en el programa de mentorías del ICEC."}
   premios_titulo: Reconocimientos
   premios:
-    - {premio: "Premio Solo Dos", detalle: "*Ehiza* · Certamen Burgos & Nueva York"}
-    - {premio: "Premio NunArt", detalle: "*Happy Everything* · Certamen de Sabadell"}
+    - {premio: "Premio SóLODOS en Danza", detalle: "*Ehiza* · Certamen Internacional de Coreografía Burgos-Nueva York, 2016"}
+    - {premio: "Premio Ventana Abierta a la Danza", detalle: "*Ehiza* · Certamen Internacional de Coreografía Burgos-Nueva York, 2016"}
+    - {premio: "Premio NunArt", detalle: "*Happy Everything* · Certamen Coreogràfic de Sabadell, 2025"}
+    - {premio: "Mención especial", detalle: "*Ehiza* · Festival HOP, Barcelona, 2015"}
+    - {premio: "Catálogo Danza a Escena", detalle: "*Ehiza* · INAEM y La Red, 2019"}
+  lugares_titulo: Dónde hemos bailado
+  lugares:
+    - {pais: "España", sitios: "Festival HOP · Mercat de les Flors · Dansa Metropolitana · Sismògraf (Olot) · Trayectos (Zaragoza) · Cádiz en Danza · Teatro Principal de Burgos · SAT! Teatre · El Graner · Gran Teatre del Liceu"}
+    - {pais: "Reino Unido", sitios: "Breakin' Convention · Sadler's Wells (Londres)"}
+    - {pais: "Italia", sitios: "Interplay (Turín) · Danza Urbana XL (Bolonia)"}
+    - {pais: "Brasil", sitios: "Dança em Trânsito: Río de Janeiro, Brasília, Goiânia, São Luís, Ilha do Combu, Parauapebas…"}
+  citas_titulo: Han dicho
+  citas:
+    - {texto: "I was hugely inspired by the memorable performances choreographed and performed by Hector Plaza & Agnés Sales Martin.", fuente: "STRAND Magazine, Londres, 2019"}
+    - {texto: "Dibujan un particular universo corpóreo, de gran fisicidad y precisión interpretativa.", fuente: "Festival Trayectos, Zaragoza, 2016"}
   pedir: Trabajemos *juntos*
   pedir_texto: Cuéntanos qué tienes en mente y te respondemos.
 
@@ -31,15 +65,49 @@ ca:
   texto: |
     ALAVERA és una companyia de dansa urbana contemporània fundada per Agnès Sales i Héctor Plaza l'any 2016 a Barcelona. El seu llenguatge escènic neix de la barreja entre el breaking, la dansa contemporània i el teatre físic, combinant allò artesanal amb allò experimental i posant en valor la bellesa d'allò vulnerable i allò real.
 
+    Una recerca centrada en la senzillesa, l'honestedat física i l'escolta entre cossos, on la dificultat tècnica no apareix com a exhibició, sinó com a matèria expressiva.
+
     > Crear. Compartir. Transformar.
+  nombre_titulo: El nom
+  nombre_texto: "*A la vera* (en castellà): al costat d'alguna cosa, a la seva vora. Ser a la vora d'un estil i d'un altre —de la dansa urbana, de la contemporània i del teatre—; d'allò físic i virtuós i d'allò emocional i senzill, sense deixar del tot cap dels dos."
+  bios:
+    - nombre: Agnès Sales
+      texto: "Ballarina, coreògrafa i docent. Va ser gimnasta de competició i va arribar al hip hop amb el grup de breaking La Cueva; va guanyar el BOTY France el 2015. Llicenciada en Ciències de l'Activitat Física i de l'Esport (INEFC Barcelona), es va formar en dansa contemporània a l'escola Varium. Ha ballat amb La Intrusa, Marcel et ses Drôles de Femmes, VAYA, Chriki'Z i S'Poart, i a *Macbeth* al Gran Teatre del Liceu (2023). Codirigeix ALAVERA i és la intèrpret de *Happy Everything* i *A medio camino*. Ensenya a Àrea, Varium i el Col·legi de Teatre de Barcelona."
+    - nombre: Héctor Plaza
+      texto: "Héctor Plaza «Buba» (Valladolid) va descobrir el breaking als 12 anys i als 17 es va instal·lar a Barcelona. El 2012 va començar a formar-se en dansa contemporània a Varium i des d'aleshores investiga la frontera entre la dansa urbana i la contemporània. Ha estat intèrpret de GN|MC Guy Nader | Maria Campos (Biennal de Venècia 2020, Romaeuropa 2021), Physical Momentum, La Intrusa i del *Macbeth* del Gran Teatre del Liceu (2023). És cofundador d'Iron Skulls Co., amb qui va ser candidat als Premis Max 2024 a Millor Coreografia. Codirigeix ALAVERA i ensenya a Àrea i Free Zone."
   creacion_titulo: Creació
-  creacion: "Des del 2016 han creat obres com *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* i *A medio camino*, presentades en festivals com Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red a Cielo Abierto o Dança em Trânsito, entre d'altres."
+  creacion: "Des del 2016 han creat obres com *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* i *A medio camino*, presentades en festivals com Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red Acieloabierto o Dança em Trânsito, entre d'altres."
   formacion_titulo: Formació
-  formacion: "A més de la creació escènica, la tasca pedagògica és una part essencial del seu treball, entesa com una extensió natural de la pràctica artística i del desig de compartir. Han impartit formació a la TNUA (Taipei), James Carlès (Tolosa), el Freiartfestival (Friburg), Varium, Àrea o en projectes socioeducatius com En Residència (Barcelona)."
+  formacion: "La tasca pedagògica és una part essencial del seu treball, entesa com una extensió natural de la pràctica artística i del desig de compartir. Han impartit formació a James Carlès (Tolosa), Dança em Trânsito (Brasil), Varium, Àrea o en projectes socioeducatius com En Residència (Barcelona)."
+  trayectoria_titulo: Trajectòria
+  trayectoria:
+    - {anio: "2015", texto: "*Ehiza*, la seva primera peça plegats: menció especial al Festival HOP i residència a El Graner."}
+    - {anio: "2016", texto: "Premi SóLODOS i Premi Ventana Abierta a la Danza al Certamen Internacional de Coreografia Burgos-Nova York. Gira pel circuit Red Acieloabierto (Sismògraf, Trayectos, Cádiz en Danza)."}
+    - {anio: "2017", texto: "*Ehiza* a Interplay (Torí) i a Dança em Trânsito (Rio de Janeiro)."}
+    - {anio: "2018", texto: "Danza Urbana XL (Bolonya). *Las Viudas* a HOP Processos, Mercat de les Flors."}
+    - {anio: "2019", texto: "Estrena de *Blue Monday* a Back to the Lab, de Breakin' Convention, al Sadler's Wells de Londres. *Ehiza* entra al catàleg Danza a Escena."}
+    - {anio: "2020", texto: "*Slapping*, amb Legacy Dance Company i Gora Casado (HOP). Creació de *Happy Everything*."}
+    - {anio: "2022", texto: "Gira de *Blue Monday* pel Brasil amb Dança em Trânsito: set funcions. Dansa Metropolitana."}
+    - {anio: "2024", texto: "*Happy Everything* a Dansa Metropolitana."}
+    - {anio: "2025", texto: "Estrena d'*A medio camino*, després d'una residència a La Caldera amb el Festival HOP. Menció premiada al XX Certamen Coreogràfic de Sabadell."}
+    - {anio: "2026", texto: "La companyia passa a dir-se ALAVERA. *A medio camino* a Dansa Metropolitana. *Distrito V*, nova creació, seleccionada al programa de mentories de l'ICEC."}
   premios_titulo: Reconeixements
   premios:
-    - {premio: "Premi Solo Dos", detalle: "*Ehiza* · Certamen Burgos & Nova York"}
-    - {premio: "Premi NunArt", detalle: "*Happy Everything* · Certamen de Sabadell"}
+    - {premio: "Premi SóLODOS en Dansa", detalle: "*Ehiza* · Certamen Internacional de Coreografia Burgos-Nova York, 2016"}
+    - {premio: "Premi Ventana Abierta a la Danza", detalle: "*Ehiza* · Certamen Internacional de Coreografia Burgos-Nova York, 2016"}
+    - {premio: "Premi NunArt", detalle: "*Happy Everything* · Certamen Coreogràfic de Sabadell, 2025"}
+    - {premio: "Menció especial", detalle: "*Ehiza* · Festival HOP, Barcelona, 2015"}
+    - {premio: "Catàleg Danza a Escena", detalle: "*Ehiza* · INAEM i La Red, 2019"}
+  lugares_titulo: On hem ballat
+  lugares:
+    - {pais: "Espanya", sitios: "Festival HOP · Mercat de les Flors · Dansa Metropolitana · Sismògraf (Olot) · Trayectos (Saragossa) · Cádiz en Danza · Teatro Principal de Burgos · SAT! Teatre · El Graner · Gran Teatre del Liceu"}
+    - {pais: "Regne Unit", sitios: "Breakin' Convention · Sadler's Wells (Londres)"}
+    - {pais: "Itàlia", sitios: "Interplay (Torí) · Danza Urbana XL (Bolonya)"}
+    - {pais: "Brasil", sitios: "Dança em Trânsito: Rio de Janeiro, Brasília, Goiânia, São Luís, Ilha do Combu, Parauapebas…"}
+  citas_titulo: Han dit
+  citas:
+    - {texto: "I was hugely inspired by the memorable performances choreographed and performed by Hector Plaza & Agnés Sales Martin.", fuente: "STRAND Magazine, Londres, 2019"}
+    - {texto: "Dibujan un particular universo corpóreo, de gran fisicidad y precisión interpretativa.", fuente: "Festival Trayectos, Saragossa, 2016"}
   pedir: Treballem *plegats*
   pedir_texto: Explica'ns què tens al cap i et respondrem.
 
@@ -50,15 +118,49 @@ en:
   texto: |
     ALAVERA is a contemporary urban dance company founded by Agnès Sales and Héctor Plaza in Barcelona in 2016. Its stage language comes from the meeting of breaking, contemporary dance and physical theatre, combining the handmade with the experimental and valuing the beauty of what is vulnerable and real.
 
+    Their research is centred on simplicity, physical honesty and listening between bodies, where technical difficulty is never a display but expressive material.
+
     > Create. Share. Transform.
+  nombre_titulo: The name
+  nombre_texto: "*A la vera* (Spanish): beside something, at its edge. Standing beside one style and another —urban dance, contemporary dance and theatre—; beside the physical and virtuosic and the emotional and simple, without fully leaving either."
+  bios:
+    - nombre: Agnès Sales
+      texto: "Dancer, choreographer and teacher. A former competitive gymnast, she came to hip hop through the breaking crew La Cueva and won BOTY France in 2015. She holds a degree in Physical Activity and Sport Sciences (INEFC Barcelona) and trained in contemporary dance at Varium. She has danced with La Intrusa, Marcel et ses Drôles de Femmes, VAYA, Chriki'Z and S'Poart, and in *Macbeth* at the Gran Teatre del Liceu (2023). She co-directs ALAVERA and performs *Happy Everything* and *A medio camino*. She teaches at Àrea, Varium and the Col·legi de Teatre de Barcelona."
+    - nombre: Héctor Plaza
+      texto: "Héctor Plaza “Buba” (Valladolid) discovered breaking at 12 and moved to Barcelona at 17. In 2012 he began training in contemporary dance at Varium and has since explored the border between urban and contemporary dance. He has performed with GN|MC Guy Nader | Maria Campos (Venice Biennale 2020, Romaeuropa 2021), Physical Momentum, La Intrusa and in *Macbeth* at the Gran Teatre del Liceu (2023). He co-founded Iron Skulls Co., with whom he was nominated for the 2024 Max Awards for Best Choreography. He co-directs ALAVERA and teaches at Àrea and Free Zone."
   creacion_titulo: Creation
-  creacion: "Since 2016 they have created works such as *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* and *A medio camino*, presented at festivals including Breakin' Convention (Sadler's Wells, London), Dansa Metropolitana, La Red a Cielo Abierto and Dança em Trânsito."
+  creacion: "Since 2016 they have created works such as *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* and *A medio camino*, presented at festivals including Breakin' Convention (Sadler's Wells, London), Dansa Metropolitana, Red Acieloabierto and Dança em Trânsito."
   formacion_titulo: Teaching
-  formacion: "Alongside stage work, teaching is an essential part of what they do, a natural extension of their artistic practice and their wish to share. They have taught at TNUA (Taipei), James Carlès (Toulouse), Freiartfestival (Freiburg), Varium and Àrea, and in community education projects such as En Residència (Barcelona)."
+  formacion: "Teaching is an essential part of what they do, a natural extension of their artistic practice and their wish to share. They have taught at James Carlès (Toulouse), Dança em Trânsito (Brazil), Varium and Àrea, and in community education projects such as En Residència (Barcelona)."
+  trayectoria_titulo: Timeline
+  trayectoria:
+    - {anio: "2015", texto: "*Ehiza*, their first piece together: special mention at Festival HOP and a residency at El Graner."}
+    - {anio: "2016", texto: "SóLODOS Award and Ventana Abierta a la Danza Award at the Burgos-New York International Choreography Competition. Tour of the Red Acieloabierto circuit (Sismògraf, Trayectos, Cádiz en Danza)."}
+    - {anio: "2017", texto: "*Ehiza* at Interplay (Turin) and Dança em Trânsito (Rio de Janeiro)."}
+    - {anio: "2018", texto: "Danza Urbana XL (Bologna). *Las Viudas* at HOP Procesos, Mercat de les Flors."}
+    - {anio: "2019", texto: "*Blue Monday* premieres at Breakin' Convention's Back to the Lab, Sadler's Wells, London. *Ehiza* selected for the Danza a Escena catalogue."}
+    - {anio: "2020", texto: "*Slapping*, with Legacy Dance Company and Gora Casado (HOP). Creation of *Happy Everything*."}
+    - {anio: "2022", texto: "*Blue Monday* tours Brazil with Dança em Trânsito: seven performances. Dansa Metropolitana."}
+    - {anio: "2024", texto: "*Happy Everything* at Dansa Metropolitana."}
+    - {anio: "2025", texto: "*A medio camino* premieres after a residency at La Caldera with Festival HOP. Award mention at the 20th Certamen Coreogràfic de Sabadell."}
+    - {anio: "2026", texto: "The company is renamed ALAVERA. *A medio camino* at Dansa Metropolitana. *Distrito V*, a new creation, selected for the ICEC mentoring programme."}
   premios_titulo: Awards
   premios:
-    - {premio: "Solo Dos Award", detalle: "*Ehiza* · Burgos & New York Choreography Competition"}
-    - {premio: "NunArt Award", detalle: "*Happy Everything* · Sabadell Competition"}
+    - {premio: "SóLODOS Dance Award", detalle: "*Ehiza* · Burgos-New York International Choreography Competition, 2016"}
+    - {premio: "Ventana Abierta a la Danza Award", detalle: "*Ehiza* · Burgos-New York International Choreography Competition, 2016"}
+    - {premio: "NunArt Award", detalle: "*Happy Everything* · Certamen Coreogràfic de Sabadell, 2025"}
+    - {premio: "Special mention", detalle: "*Ehiza* · Festival HOP, Barcelona, 2015"}
+    - {premio: "Danza a Escena catalogue", detalle: "*Ehiza* · INAEM and La Red, 2019"}
+  lugares_titulo: Where we have danced
+  lugares:
+    - {pais: "Spain", sitios: "Festival HOP · Mercat de les Flors · Dansa Metropolitana · Sismògraf (Olot) · Trayectos (Zaragoza) · Cádiz en Danza · Teatro Principal de Burgos · SAT! Teatre · El Graner · Gran Teatre del Liceu"}
+    - {pais: "United Kingdom", sitios: "Breakin' Convention · Sadler's Wells (London)"}
+    - {pais: "Italy", sitios: "Interplay (Turin) · Danza Urbana XL (Bologna)"}
+    - {pais: "Brazil", sitios: "Dança em Trânsito: Rio de Janeiro, Brasília, Goiânia, São Luís, Ilha do Combu, Parauapebas…"}
+  citas_titulo: What they said
+  citas:
+    - {texto: "I was hugely inspired by the memorable performances choreographed and performed by Hector Plaza & Agnés Sales Martin.", fuente: "STRAND Magazine, London, 2019"}
+    - {texto: "They draw a singular bodily universe, of great physicality and precise performance.", fuente: "Festival Trayectos, Zaragoza, 2016"}
   pedir: Let's work *together*
   pedir_texto: Tell us what you have in mind and we'll get back to you.
 
@@ -69,14 +171,48 @@ fr:
   texto: |
     ALAVERA est une compagnie de danse urbaine contemporaine fondée par Agnès Sales et Héctor Plaza en 2016 à Barcelone. Son langage scénique naît du mélange entre le breaking, la danse contemporaine et le théâtre physique, alliant l'artisanal à l'expérimental et mettant en valeur la beauté de ce qui est vulnérable et réel.
 
+    Une recherche centrée sur la simplicité, l'honnêteté physique et l'écoute entre les corps, où la difficulté technique n'est jamais une démonstration mais une matière expressive.
+
     > Créer. Partager. Transformer.
+  nombre_titulo: Le nom
+  nombre_texto: "*A la vera* (espagnol) : à côté de quelque chose, sur sa rive. Se tenir à côté d'un style et d'un autre —la danse urbaine, la danse contemporaine et le théâtre— ; du physique et du virtuose comme de l'émotion et de la simplicité, sans quitter tout à fait ni l'un ni l'autre."
+  bios:
+    - nombre: Agnès Sales
+      texto: "Danseuse, chorégraphe et pédagogue. Ancienne gymnaste de compétition, elle arrive au hip hop avec le crew de breaking La Cueva et remporte le BOTY France en 2015. Diplômée en Sciences de l'activité physique et du sport (INEFC Barcelone), elle se forme à la danse contemporaine à l'école Varium. Elle a dansé avec La Intrusa, Marcel et ses Drôles de Femmes, VAYA, Chriki'Z et S'Poart, ainsi que dans *Macbeth* au Gran Teatre del Liceu (2023). Elle codirige ALAVERA et interprète *Happy Everything* et *A medio camino*. Elle enseigne à Àrea, à Varium et au Col·legi de Teatre de Barcelone."
+    - nombre: Héctor Plaza
+      texto: "Héctor Plaza « Buba » (Valladolid) découvre le breaking à 12 ans et s'installe à Barcelone à 17 ans. En 2012, il commence à se former à la danse contemporaine à Varium et explore depuis la frontière entre danse urbaine et danse contemporaine. Il a été interprète pour GN|MC Guy Nader | Maria Campos (Biennale de Venise 2020, Romaeuropa 2021), Physical Momentum, La Intrusa et dans *Macbeth* au Gran Teatre del Liceu (2023). Cofondateur d'Iron Skulls Co., il a été nommé avec elle aux Premios Max 2024 dans la catégorie Meilleure chorégraphie. Il codirige ALAVERA et enseigne à Àrea et Free Zone."
   creacion_titulo: Création
-  creacion: "Depuis 2016, ils ont créé des pièces comme *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* et *A medio camino*, présentées dans des festivals tels que Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red a Cielo Abierto ou Dança em Trânsito."
+  creacion: "Depuis 2016, ils ont créé des pièces comme *Ehiza*, *Blue Monday*, *Happy Everything*, *Slapping* et *A medio camino*, présentées dans des festivals tels que Breakin' Convention (Sadler's Wells, Londres), Dansa Metropolitana, la Red Acieloabierto ou Dança em Trânsito."
   formacion_titulo: Transmission
-  formacion: "Au-delà de la création, la pédagogie est une part essentielle de leur travail, conçue comme un prolongement naturel de leur pratique artistique et de leur désir de partager. Ils ont enseigné à la TNUA (Taipei), chez James Carlès (Toulouse), au Freiartfestival (Fribourg-en-Brisgau), à Varium, à Àrea ou dans des projets socio-éducatifs comme En Residència (Barcelone)."
+  formacion: "La pédagogie est une part essentielle de leur travail, un prolongement naturel de leur pratique artistique et de leur désir de partager. Ils ont enseigné chez James Carlès (Toulouse), à Dança em Trânsito (Brésil), à Varium, à Àrea ou dans des projets socio-éducatifs comme En Residència (Barcelone)."
+  trayectoria_titulo: Parcours
+  trayectoria:
+    - {anio: "2015", texto: "*Ehiza*, leur première pièce ensemble : mention spéciale au Festival HOP et résidence à El Graner."}
+    - {anio: "2016", texto: "Prix SóLODOS et Prix Ventana Abierta a la Danza au Concours international de chorégraphie Burgos-New York. Tournée du circuit Red Acieloabierto (Sismògraf, Trayectos, Cádiz en Danza)."}
+    - {anio: "2017", texto: "*Ehiza* à Interplay (Turin) et à Dança em Trânsito (Rio de Janeiro)."}
+    - {anio: "2018", texto: "Danza Urbana XL (Bologne). *Las Viudas* à HOP Procesos, Mercat de les Flors."}
+    - {anio: "2019", texto: "Création de *Blue Monday* à Back to the Lab, de Breakin' Convention, au Sadler's Wells de Londres. *Ehiza* entre au catalogue Danza a Escena."}
+    - {anio: "2020", texto: "*Slapping*, avec Legacy Dance Company et Gora Casado (HOP). Création de *Happy Everything*."}
+    - {anio: "2022", texto: "Tournée de *Blue Monday* au Brésil avec Dança em Trânsito : sept représentations. Dansa Metropolitana."}
+    - {anio: "2024", texto: "*Happy Everything* à Dansa Metropolitana."}
+    - {anio: "2025", texto: "Création d'*A medio camino*, après une résidence à La Caldera avec le Festival HOP. Mention primée au XXe Certamen Coreogràfic de Sabadell."}
+    - {anio: "2026", texto: "La compagnie prend le nom d'ALAVERA. *A medio camino* à Dansa Metropolitana. *Distrito V*, nouvelle création, sélectionnée dans le programme de mentorat de l'ICEC."}
   premios_titulo: Prix
   premios:
-    - {premio: "Prix Solo Dos", detalle: "*Ehiza* · Concours Burgos & New York"}
-    - {premio: "Prix NunArt", detalle: "*Happy Everything* · Concours de Sabadell"}
+    - {premio: "Prix SóLODOS de danse", detalle: "*Ehiza* · Concours international de chorégraphie Burgos-New York, 2016"}
+    - {premio: "Prix Ventana Abierta a la Danza", detalle: "*Ehiza* · Concours international de chorégraphie Burgos-New York, 2016"}
+    - {premio: "Prix NunArt", detalle: "*Happy Everything* · Certamen Coreogràfic de Sabadell, 2025"}
+    - {premio: "Mention spéciale", detalle: "*Ehiza* · Festival HOP, Barcelone, 2015"}
+    - {premio: "Catalogue Danza a Escena", detalle: "*Ehiza* · INAEM et La Red, 2019"}
+  lugares_titulo: Où nous avons dansé
+  lugares:
+    - {pais: "Espagne", sitios: "Festival HOP · Mercat de les Flors · Dansa Metropolitana · Sismògraf (Olot) · Trayectos (Saragosse) · Cádiz en Danza · Teatro Principal de Burgos · SAT! Teatre · El Graner · Gran Teatre del Liceu"}
+    - {pais: "Royaume-Uni", sitios: "Breakin' Convention · Sadler's Wells (Londres)"}
+    - {pais: "Italie", sitios: "Interplay (Turin) · Danza Urbana XL (Bologne)"}
+    - {pais: "Brésil", sitios: "Dança em Trânsito : Rio de Janeiro, Brasília, Goiânia, São Luís, Ilha do Combu, Parauapebas…"}
+  citas_titulo: Ils en parlent
+  citas:
+    - {texto: "I was hugely inspired by the memorable performances choreographed and performed by Hector Plaza & Agnés Sales Martin.", fuente: "STRAND Magazine, Londres, 2019"}
+    - {texto: "Ils dessinent un univers corporel singulier, d'une grande physicalité et d'une interprétation précise.", fuente: "Festival Trayectos, Saragosse, 2016"}
   pedir: Travaillons *ensemble*
   pedir_texto: Racontez-nous ce que vous avez en tête et nous vous répondrons.

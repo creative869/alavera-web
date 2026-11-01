@@ -33,3 +33,59 @@ button.video { width: 100%; padding: 0; border: 0; }
   .portada-marca, .portada-izq { display: none; }
   .portada { padding-bottom: 8px; }
 }
+
+/* Compañía: el nombre, bios, trayectoria, lugares y citas */
+.cia-nombre { display: grid; gap: 14px; max-width: 900px; margin: 0 auto; padding: 0 var(--lado) clamp(64px, 8vw, 120px); text-align: center; justify-items: center; }
+.cia-nombre p { margin: 0; font-family: var(--titular); font-size: clamp(22px, 2.2vw, 32px); line-height: 1.35; }
+.cia-bios { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(32px, 5vw, 96px); padding: 0 var(--lado) clamp(64px, 8vw, 120px); }
+.cia-bio { display: grid; gap: 16px; align-content: start; border-top: 1px solid var(--negro); padding-top: 18px; }
+.cia-bio h2 { margin: 0; font-family: var(--titular); font-weight: 400; font-size: clamp(32px, 3.4vw, 52px); line-height: 1; }
+.cia-bio p { margin: 0; font-size: 17px; line-height: 1.6; color: #2d2b28; }
+.cia-lista { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: 24px clamp(24px, 4vw, 64px); padding: 0 var(--lado) clamp(64px, 8vw, 120px); }
+.cia-lista h2 { margin: 0; font-family: var(--titular); font-weight: 400; font-size: clamp(36px, 4vw, 60px); line-height: 1; }
+.cia-filas { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
+.cia-filas li { display: grid; grid-template-columns: 7em minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--linea); font-size: 16px; line-height: 1.5; color: #2d2b28; }
+.cia-anio { font-family: var(--titular); font-size: 22px; line-height: 1.1; color: var(--negro); }
+.cia-pais { font-family: var(--texto); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--gris-texto); padding-top: 4px; }
+.cia-citas { display: grid; gap: clamp(32px, 4vw, 56px); justify-items: center; text-align: center; padding: clamp(48px, 6vw, 96px) var(--lado) clamp(80px, 9vw, 140px); }
+.cia-cita { margin: 0; display: grid; gap: 14px; max-width: 980px; }
+.cia-cita blockquote { margin: 0; font-family: var(--titular); font-style: italic; font-size: clamp(24px, 2.6vw, 40px); line-height: 1.3; }
+.cia-cita figcaption { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--gris-texto); }
+@media (max-width: 900px) {
+  .cia-bios, .cia-lista { grid-template-columns: minmax(0, 1fr); }
+  .cia-filas li { grid-template-columns: 4.5em minmax(0, 1fr); }
+  .cia-filas li:has(.cia-pais) { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
+
+/* Pista de scroll en la portada: una línea fina con un trazo que baja */
+.pista { position: absolute; left: 50%; bottom: 34px; width: 1px; height: 56px; background: rgba(255, 255, 255, .3); overflow: hidden; }
+.pista::after { content: ""; position: absolute; left: 0; top: -40%; width: 1px; height: 40%; background: #fff; animation: pista 1.9s cubic-bezier(.65, 0, .35, 1) infinite; }
+@keyframes pista { to { top: 100%; } }
+@media (prefers-reduced-motion: reduce) { .pista::after { animation: none; top: 30%; } }
+
+/* La compañía en la portada, después de En gira */
+.cia-inicio-cuerpo { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 8px; align-items: end; width: min(100%, 980px); margin: clamp(120px, 14vw, 210px) auto 0; }
+.cia-inicio-foto { grid-column: 2 / 8; display: block; overflow: hidden; }
+.cia-inicio-foto img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform 1.4s cubic-bezier(.2, .6, .2, 1); }
+.cia-inicio-foto:hover img { transform: scale(1.03); }
+.cia-inicio-txt { grid-column: 9 / 13; display: grid; gap: 18px; padding-bottom: 12px; }
+.cia-inicio-txt h3 { margin: 0; font-family: var(--titular); font-weight: 400; font-size: clamp(28px, 2.6vw, 40px); line-height: 1.05; }
+.cia-inicio-txt p { margin: 0; font-family: var(--marca); font-size: 20px; line-height: 1.45; color: #3e3c39; }
+.cia-inicio-ir { justify-self: start; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid currentColor; padding: 6px 0; }
+.cia-inicio-ir:hover { font-style: italic; }
+
+/* Móvil: las fotos de los tableros en dos columnas, con el nombre y la duración debajo */
+@media (max-width: 640px) {
+  .raiz .collage { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: auto; gap: 28px 12px; width: 100%; }
+  .raiz .collage .tesela { grid-column: auto !important; grid-row: auto !important; overflow: visible; translate: none; }
+  .raiz .collage .tesela:nth-child(even) { margin-top: 56px; }
+  .raiz .collage .tesela img { height: auto; aspect-ratio: 4 / 5; }
+  .raiz .collage .velo { display: flex; position: static; opacity: 1; background: none; color: var(--negro); padding: 10px 0 0; gap: 3px; }
+  .raiz .collage .velo > span { transform: none; }
+  .raiz .collage .t-nombre { font-size: 18px; }
+  .raiz .collage .t-dato { font-size: 10px; color: var(--gris-texto); }
+  .raiz .collage .t-linea { display: none; }
+  .cia-inicio-cuerpo { grid-template-columns: minmax(0, 1fr); gap: 18px; margin-top: 96px; }
+  .cia-inicio-foto, .cia-inicio-txt { grid-column: 1; }
+  .pista { bottom: 22px; height: 44px; }
+}

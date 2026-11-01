@@ -324,13 +324,30 @@ def inicio(lang):
       <span class="velo"><span class="t-nombre">{e(nombre)}</span><span class="t-dato">{e(dato)}</span><span class="t-linea">{inl(fl.get("linea"))}</span></span>
     </a>''')
         tid = 't-' + tab['id']
-        ultimo = ' ultimo' if n == len(visibles) - 1 else ''
-        tableros.append(f'''<section class="tablero{ultimo}" id="{e(tab["id"])}" data-vigilar aria-labelledby="{tid}">
+        tableros.append(f'''<section class="tablero{{ULTIMO}}" id="{e(tab["id"])}" data-vigilar aria-labelledby="{tid}">
   <div class="gigante-pista"><h2 class="gigante" id="{tid}">{e(tab["titulo"][lang])}</h2></div>
   <div class="collage">
 {chr(10).join(teselas)}
   </div>
 </section>''')
+
+    cia = PORTADA.get('compania') or {}
+    if cia.get('mostrar', True) is not False and cia.get('imagen'):
+        ct = cia.get(lang, {}) or {}
+        bloque_cia = f'''<section class="tablero cia-inicio{{ULTIMO}}" id="compania" data-vigilar aria-labelledby="t-compania">
+  <div class="gigante-pista"><h2 class="gigante" id="t-compania">{e(t["menu_compania"])}</h2></div>
+  <div class="cia-inicio-cuerpo">
+    <a class="cia-inicio-foto aparece" href="{enlace(desde, lang, 'compania')}" tabindex="-1" aria-hidden="true"><img src="{recurso(desde, cia["imagen"])}" alt="" loading="lazy"></a>
+    <div class="cia-inicio-txt aparece">
+      <h3>{e(CIA[lang]["titulo"])}</h3>
+      <p>{inl(ct.get("texto"))}</p>
+      <a class="cia-inicio-ir" href="{enlace(desde, lang, 'compania')}">{e(ct.get("enlace"))} →</a>
+    </div>
+  </div>
+</section>'''
+        pos = next((i + 1 for i, tb in enumerate(visibles) if tb.get('id') == 'en-gira'), len(tableros))
+        tableros.insert(pos, bloque_cia)
+    tableros = [x.replace('{ULTIMO}', ' ultimo' if i == len(tableros) - 1 else '') for i, x in enumerate(tableros)]
 
     cuerpo = f'''<div class="escena" id="inicio" data-segundos="{PORTADA.get("segundos", 3)}">
   <div class="escena-fija">
@@ -339,6 +356,7 @@ def inicio(lang):
     </div>
     <div class="sello">
       <img src="{recurso(desde, 'marca/sello.png')}" alt="Alavera · Agnès Sales &amp; Héctor Plaza">
+      <span class="pista" aria-hidden="true"></span>
     </div>
     <section class="portada">
       <p class="portada-izq"><strong>Alavera</strong> — {inl(d.get("intro"))}</p>
@@ -478,6 +496,28 @@ def compania(lang):
     d = CIA[lang]
     desde = archivo(lang, 'compania')
     premios = ''.join(f'<li><strong>{e(x.get("premio"))}</strong><span>{inl(x.get("detalle"))}</span></li>' for x in d.get('premios', []) or [])
+    nombre = ''
+    if d.get('nombre_texto'):
+        nombre = f'''<section class="cia-nombre entra">
+  <span class="pz-rotulo">{e(d.get("nombre_titulo"))}</span>
+  <p>{inl(d.get("nombre_texto"))}</p>
+</section>'''
+    bios = ''
+    if d.get('bios'):
+        bios = '<section class="cia-bios">' + ''.join(
+            f'<article class="cia-bio entra"><h2>{e(b.get("nombre"))}</h2><p>{inl(b.get("texto"))}</p></article>' for b in d['bios']) + '</section>'
+    trayectoria = ''
+    if d.get('trayectoria'):
+        filas = ''.join(f'<li><span class="cia-anio">{e(x.get("anio"))}</span><span>{inl(x.get("texto"))}</span></li>' for x in d['trayectoria'])
+        trayectoria = f'<section class="cia-lista entra"><h2>{e(d.get("trayectoria_titulo"))}</h2><ol class="cia-filas">{filas}</ol></section>'
+    lugares = ''
+    if d.get('lugares'):
+        filas = ''.join(f'<li><span class="cia-anio cia-pais">{e(x.get("pais"))}</span><span>{inl(x.get("sitios"))}</span></li>' for x in d['lugares'])
+        lugares = f'<section class="cia-lista entra"><h2>{e(d.get("lugares_titulo"))}</h2><ul class="cia-filas">{filas}</ul></section>'
+    citas = ''
+    if d.get('citas'):
+        cs = ''.join(f'<figure class="cia-cita"><blockquote>«{inl(x.get("texto"))}»</blockquote><figcaption>{e(x.get("fuente"))}</figcaption></figure>' for x in d['citas'])
+        citas = f'<section class="cia-citas entra"><span class="pz-rotulo">{e(d.get("citas_titulo"))}</span>{cs}</section>'
     cuerpo = f'''<section class="pz-hero" aria-label="{e(d["titulo"])}">
   <img src="{recurso(desde, CIA["foto_principal"])}" alt="{e(d["titulo"])}" style="object-position: {e(CIA.get("encuadre", "50% 50%"))}">
 </section>
@@ -493,6 +533,10 @@ def compania(lang):
   </div>
 </section>
 
+{nombre}
+
+{bios}
+
 <section class="cia-bloques">
   <div class="cia-bloque entra">
     <h2>{e(d.get("creacion_titulo"))}</h2>
@@ -507,6 +551,12 @@ def compania(lang):
     <ul class="premios">{premios}</ul>
   </div>
 </section>
+
+{trayectoria}
+
+{lugares}
+
+{citas}
 
 {galeria(desde, CIA.get("galeria"), d["titulo"], lang, campo="pie")}
 

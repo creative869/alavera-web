@@ -57,6 +57,15 @@ fr:
   contacto_titulo: "Travaillons *ensemble*"
   contacto_texto: Chaque projet naît d'une rencontre. Si vous souhaitez programmer une pièce, développer une collaboration ou explorer de nouvelles formes de création, nous serons ravis de vous lire.
 
+# Bloque de la compañía en la portada (va justo después de En gira).
+compania:
+  mostrar: true
+  imagen: imagenes/compania-retrato.jpg
+  es: {texto: "Crean juntos desde 2016. Su lenguaje nace del cruce entre el breaking, la danza contemporánea y el teatro físico: lo artesanal y lo experimental, la belleza de lo vulnerable y lo real.", enlace: "Conocer la compañía"}
+  ca: {texto: "Creen junts des del 2016. El seu llenguatge neix de la cruïlla entre el breaking, la dansa contemporània i el teatre físic: allò artesanal i allò experimental, la bellesa d'allò vulnerable i allò real.", enlace: "Coneix la companyia"}
+  en: {texto: "Creating together since 2016. Their language comes from the crossing of breaking, contemporary dance and physical theatre: the handmade and the experimental, the beauty of what is vulnerable and real.", enlace: "About the company"}
+  fr: {texto: "Ils créent ensemble depuis 2016. Leur langage naît de la rencontre entre le breaking, la danse contemporaine et le théâtre physique : l'artisanal et l'expérimental, la beauté de ce qui est vulnérable et réel.", enlace: "Découvrir la compagnie"}
+
 # Los tres tableros de fotos de la portada (En gira, Pedagogía, Colaboraciones).
 # - mostrar: false → la sección desaparece de la web (portada, menú y sus páginas). true → vuelve a salir.
 # - fotos: en el orden en que aparecen. Ese mismo orden es el de "anterior / siguiente" en las páginas.

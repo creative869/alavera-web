@@ -141,6 +141,56 @@ content:
     - name: contacto_texto
       label: 'Contacto: texto'
       type: text
+  - name: compania
+    label: Bloque de la compañía (después de En gira)
+    type: object
+    fields:
+    - name: mostrar
+      label: Mostrar en la portada
+      type: boolean
+    - name: imagen
+      label: Foto
+      type: image
+    - name: es
+      label: Castellano
+      type: object
+      fields:
+      - name: texto
+        label: Texto
+        type: text
+      - name: enlace
+        label: Texto del enlace
+        type: string
+    - name: ca
+      label: Català
+      type: object
+      fields:
+      - name: texto
+        label: Texto
+        type: text
+      - name: enlace
+        label: Texto del enlace
+        type: string
+    - name: en
+      label: English
+      type: object
+      fields:
+      - name: texto
+        label: Texto
+        type: text
+      - name: enlace
+        label: Texto del enlace
+        type: string
+    - name: fr
+      label: Français
+      type: object
+      fields:
+      - name: texto
+        label: Texto
+        type: text
+      - name: enlace
+        label: Texto del enlace
+        type: string
   - name: tableros
     label: Secciones de fotos (En gira, Pedagogía, Colaboraciones)
     type: object
@@ -286,6 +336,24 @@ content:
       label: Texto
       type: text
       description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: nombre_titulo
+      label: 'El nombre: título'
+      type: string
+    - name: nombre_texto
+      label: 'El nombre: texto'
+      type: text
+      description: Entre asteriscos, cursiva.
+    - name: bios
+      label: Biografías
+      type: object
+      list: true
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: texto
+        label: Texto
+        type: text
     - name: creacion_titulo
       label: 'Bloque 1: título'
       type: string
@@ -315,6 +383,48 @@ content:
         type: string
         description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
       list: true
+    - name: trayectoria_titulo
+      label: 'Trayectoria: título'
+      type: string
+    - name: trayectoria
+      label: Trayectoria (año a año)
+      type: object
+      list: true
+      fields:
+      - name: anio
+        label: Año
+        type: string
+      - name: texto
+        label: Texto
+        type: text
+    - name: lugares_titulo
+      label: 'Lugares: título'
+      type: string
+    - name: lugares
+      label: Dónde hemos bailado
+      type: object
+      list: true
+      fields:
+      - name: pais
+        label: País
+        type: string
+      - name: sitios
+        label: Sitios
+        type: text
+    - name: citas_titulo
+      label: 'Citas: título'
+      type: string
+    - name: citas
+      label: Citas de prensa
+      type: object
+      list: true
+      fields:
+      - name: texto
+        label: Cita
+        type: text
+      - name: fuente
+        label: Fuente
+        type: string
     - name: pedir
       label: 'Contacto: título'
       type: string
@@ -339,6 +449,24 @@ content:
       label: Texto
       type: text
       description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: nombre_titulo
+      label: 'El nombre: título'
+      type: string
+    - name: nombre_texto
+      label: 'El nombre: texto'
+      type: text
+      description: Entre asteriscos, cursiva.
+    - name: bios
+      label: Biografías
+      type: object
+      list: true
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: texto
+        label: Texto
+        type: text
     - name: creacion_titulo
       label: 'Bloque 1: título'
       type: string
@@ -368,6 +496,48 @@ content:
         type: string
         description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
       list: true
+    - name: trayectoria_titulo
+      label: 'Trayectoria: título'
+      type: string
+    - name: trayectoria
+      label: Trayectoria (año a año)
+      type: object
+      list: true
+      fields:
+      - name: anio
+        label: Año
+        type: string
+      - name: texto
+        label: Texto
+        type: text
+    - name: lugares_titulo
+      label: 'Lugares: título'
+      type: string
+    - name: lugares
+      label: Dónde hemos bailado
+      type: object
+      list: true
+      fields:
+      - name: pais
+        label: País
+        type: string
+      - name: sitios
+        label: Sitios
+        type: text
+    - name: citas_titulo
+      label: 'Citas: título'
+      type: string
+    - name: citas
+      label: Citas de prensa
+      type: object
+      list: true
+      fields:
+      - name: texto
+        label: Cita
+        type: text
+      - name: fuente
+        label: Fuente
+        type: string
     - name: pedir
       label: 'Contacto: título'
       type: string
@@ -392,6 +562,24 @@ content:
       label: Texto
       type: text
       description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: nombre_titulo
+      label: 'El nombre: título'
+      type: string
+    - name: nombre_texto
+      label: 'El nombre: texto'
+      type: text
+      description: Entre asteriscos, cursiva.
+    - name: bios
+      label: Biografías
+      type: object
+      list: true
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: texto
+        label: Texto
+        type: text
     - name: creacion_titulo
       label: 'Bloque 1: título'
       type: string
@@ -421,6 +609,48 @@ content:
         type: string
         description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
       list: true
+    - name: trayectoria_titulo
+      label: 'Trayectoria: título'
+      type: string
+    - name: trayectoria
+      label: Trayectoria (año a año)
+      type: object
+      list: true
+      fields:
+      - name: anio
+        label: Año
+        type: string
+      - name: texto
+        label: Texto
+        type: text
+    - name: lugares_titulo
+      label: 'Lugares: título'
+      type: string
+    - name: lugares
+      label: Dónde hemos bailado
+      type: object
+      list: true
+      fields:
+      - name: pais
+        label: País
+        type: string
+      - name: sitios
+        label: Sitios
+        type: text
+    - name: citas_titulo
+      label: 'Citas: título'
+      type: string
+    - name: citas
+      label: Citas de prensa
+      type: object
+      list: true
+      fields:
+      - name: texto
+        label: Cita
+        type: text
+      - name: fuente
+        label: Fuente
+        type: string
     - name: pedir
       label: 'Contacto: título'
       type: string
@@ -445,6 +675,24 @@ content:
       label: Texto
       type: text
       description: Deja una línea en blanco entre párrafos. Si un párrafo empieza por > sale como cita grande en cursiva. Entre asteriscos, cursiva.
+    - name: nombre_titulo
+      label: 'El nombre: título'
+      type: string
+    - name: nombre_texto
+      label: 'El nombre: texto'
+      type: text
+      description: Entre asteriscos, cursiva.
+    - name: bios
+      label: Biografías
+      type: object
+      list: true
+      fields:
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: texto
+        label: Texto
+        type: text
     - name: creacion_titulo
       label: 'Bloque 1: título'
       type: string
@@ -474,6 +722,48 @@ content:
         type: string
         description: 'Lo que pongas entre asteriscos sale en cursiva: *así*.'
       list: true
+    - name: trayectoria_titulo
+      label: 'Trayectoria: título'
+      type: string
+    - name: trayectoria
+      label: Trayectoria (año a año)
+      type: object
+      list: true
+      fields:
+      - name: anio
+        label: Año
+        type: string
+      - name: texto
+        label: Texto
+        type: text
+    - name: lugares_titulo
+      label: 'Lugares: título'
+      type: string
+    - name: lugares
+      label: Dónde hemos bailado
+      type: object
+      list: true
+      fields:
+      - name: pais
+        label: País
+        type: string
+      - name: sitios
+        label: Sitios
+        type: text
+    - name: citas_titulo
+      label: 'Citas: título'
+      type: string
+    - name: citas
+      label: Citas de prensa
+      type: object
+      list: true
+      fields:
+      - name: texto
+        label: Cita
+        type: text
+      - name: fuente
+        label: Fuente
+        type: string
     - name: pedir
       label: 'Contacto: título'
       type: string
