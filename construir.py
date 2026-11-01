@@ -14,6 +14,9 @@ import yaml
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 SALIDA = os.path.join(RAIZ, '_site')
 DOMINIO = 'https://www.alavera.org'
+# Versión de los estilos: cambia sola cuando cambia el diseño, para que el navegador no use una copia vieja.
+import hashlib as _h
+VERSION = _h.md5(b''.join(open(os.path.join(RAIZ, 'estilo', _f), 'rb').read() for _f in sorted(os.listdir(os.path.join(RAIZ, 'estilo'))))).hexdigest()[:8]
 IDIOMAS = ['es', 'ca', 'en', 'fr']
 LOCALE = {'es': 'es_ES', 'ca': 'ca_ES', 'en': 'en_GB', 'fr': 'fr_FR'}
 GRUPOS = ['gira', 'pedagogia', 'colaboraciones']
@@ -168,10 +171,10 @@ def cabeza(lang, clave, titulo, descripcion, imagen, desde):
 <link rel="icon" type="image/png" href="{recurso(desde, 'marca/favicon.png')}">
 <link rel="apple-touch-icon" href="{recurso(desde, 'marca/icono.png')}">
 {FUENTES}
-<link rel="stylesheet" href="{recurso(desde, 'estilo/inicio.css')}">
-<link rel="stylesheet" href="{recurso(desde, 'estilo/proyecto.css')}">
-<link rel="stylesheet" href="{recurso(desde, 'estilo/web.css')}">
-<script src="{recurso(desde, 'estilo/web.js')}" defer></script>
+<link rel="stylesheet" href="{recurso(desde, 'estilo/inicio.css')}?v={VERSION}">
+<link rel="stylesheet" href="{recurso(desde, 'estilo/proyecto.css')}?v={VERSION}">
+<link rel="stylesheet" href="{recurso(desde, 'estilo/web.css')}?v={VERSION}">
+<script src="{recurso(desde, 'estilo/web.js')}?v={VERSION}" defer></script>
 </head>'''
 
 
