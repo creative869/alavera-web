@@ -30,6 +30,6 @@ button.video { width: 100%; padding: 0; border: 0; }
 
 /* Móvil y tablet: sin el logo grande; tras el texto y la definición se pasa directo a la frase y las fotos */
 @media (max-width: 1000px) {
-  .portada-marca { display: none; }
+  .portada-marca, .portada-izq { display: none; }
   .portada { padding-bottom: 8px; }
 }
