@@ -12,7 +12,7 @@ galeria:
 
 es:
   titulo: Lo que los árboles no cuentan
-  rotulo: Colaboraciones · En gira · Coproducción
+  rotulo: En gira · Coproducción
   datos: Dúo · Espacio público
   texto: |
     Una reflexión bailada sobre los paralelismos entre la naturaleza y el ser humano, sobre lo que compartimos.
@@ -30,7 +30,7 @@ es:
 
 ca:
   titulo: Lo que los árboles no cuentan
-  rotulo: Col·laboracions · En gira · Coproducció
+  rotulo: En gira · Coproducció
   datos: Duet · Espai públic
   texto: |
     Una reflexió ballada sobre els paral·lelismes entre la natura i l'ésser humà, sobre allò que compartim.
@@ -48,7 +48,7 @@ ca:
 
 en:
   titulo: Lo que los árboles no cuentan
-  rotulo: Collaborations · On tour · Co-production
+  rotulo: On tour · Co-production
   datos: Duet · Public space
   texto: |
     *What Trees Don't Tell*: a danced reflection on the parallels between nature and human beings, on what we share.
@@ -66,7 +66,7 @@ en:
 
 fr:
   titulo: Lo que los árboles no cuentan
-  rotulo: Collaborations · En tournée · Coproduction
+  rotulo: En tournée · Coproduction
   datos: Duo · Espace public
   texto: |
     *Ce que les arbres ne racontent pas* : une réflexion dansée sur les parallèles entre la nature et l'être humain, sur ce que nous partageons.

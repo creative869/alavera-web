@@ -142,12 +142,16 @@ content:
       label: 'Contacto: texto'
       type: text
   - name: tableros
-    label: Tableros de fotos (En gira, Pedagogía, Colaboraciones)
+    label: Secciones de fotos (En gira, Pedagogía, Colaboraciones)
     type: object
     fields:
     - name: id
       label: Identificador (no cambiar)
       type: string
+    - name: mostrar
+      label: Mostrar esta sección en la web
+      type: boolean
+      description: Si la apagas, desaparece de la portada, del menú y sus páginas dejan de publicarse.
     - name: titulo
       label: Título gigante
       type: object
@@ -165,31 +169,26 @@ content:
         label: Français
         type: string
     - name: fotos
-      label: Fotos
+      label: Fotos (en este orden)
       type: object
       fields:
       - name: proyecto
         label: Página a la que lleva
-        type: string
-        description: 'Nombre del archivo del proyecto, por ejemplo: blue-monday'
+        type: select
+        options:
+          values:
+          - a-medio-camino
+          - anaga
+          - blue-monday
+          - comunitarios
+          - happy-everything
+          - institutos
+          - lo-que-los-arboles-no-cuentan
+          - talleres
+          - treinta-segundos
       - name: imagen
         label: Foto
         type: image
-      - name: columna
-        label: Columnas que ocupa
-        type: string
-        description: 'De 1 a 13. Ej.: 2 / 7'
-      - name: fila
-        label: Filas que ocupa
-        type: string
-        description: 'Ej.: 1 / 7'
-      - name: velocidad
-        label: Velocidad al hacer scroll
-        type: number
-        description: Entre -0.15 y 0.15. 0 = quieta
-      - name: encima
-        label: Por encima de las demás
-        type: boolean
       - name: es
         label: Castellano
         type: object
@@ -197,6 +196,7 @@ content:
         - name: dato
           label: Dato corto
           type: string
+          description: Si lo dejas vacío, se usan los datos del proyecto.
         - name: linea
           label: Frase al pasar el ratón
           type: string
@@ -207,6 +207,7 @@ content:
         - name: dato
           label: Dato corto
           type: string
+          description: Si lo dejas vacío, se usan los datos del proyecto.
         - name: linea
           label: Frase al pasar el ratón
           type: string
@@ -217,6 +218,7 @@ content:
         - name: dato
           label: Dato corto
           type: string
+          description: Si lo dejas vacío, se usan los datos del proyecto.
         - name: linea
           label: Frase al pasar el ratón
           type: string
@@ -227,11 +229,14 @@ content:
         - name: dato
           label: Dato corto
           type: string
+          description: Si lo dejas vacío, se usan los datos del proyecto.
         - name: linea
           label: Frase al pasar el ratón
           type: string
       list: true
+      description: El orden de las fotos es también el orden de anterior / siguiente en las páginas. La colocación es automática.
     list: true
+    description: Apaga o enciende cada sección y elige sus fotos. Arrastra las fotos para cambiar el orden.
 - name: compania
   label: Compañía
   type: file

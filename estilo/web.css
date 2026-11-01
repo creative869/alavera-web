@@ -18,3 +18,7 @@ button.video { width: 100%; padding: 0; border: 0; }
 .no-existe { min-height: 70vh; display: grid; place-content: center; justify-items: center; gap: 18px; text-align: center; padding: 120px var(--lado); }
 .no-existe h1 { margin: 0; font-family: var(--titular); font-weight: 400; font-size: clamp(40px, 5vw, 72px); }
 .no-existe p { margin: 0; color: var(--gris-texto); }
+
+/* El último tablero visible deja aire antes del contacto */
+.tablero.ultimo { padding-bottom: var(--seccion); }
+@media (max-width: 640px) { .tablero.ultimo { padding-bottom: 72px; } }

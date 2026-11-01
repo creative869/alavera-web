@@ -70,15 +70,57 @@ for ruta in sorted(glob.glob(os.path.join(RAIZ, 'contenido/proyectos/*.yml'))):
     P[slug]['slug'] = slug
 
 
+TABLEROS = PORTADA.get('tableros', []) or []
+TAB_GRUPO = {'en-gira': 'gira', 'pedagogia': 'pedagogia', 'colaboraciones': 'colaboraciones'}
+# Una sección se puede apagar desde el Inicio (mostrar: false): desaparece del menú, de la portada y sus páginas no se publican.
+VISIBLE = {g: True for g in GRUPOS}
+for _tab in TABLEROS:
+    if TAB_GRUPO.get(_tab.get('id')):
+        VISIBLE[TAB_GRUPO[_tab['id']]] = _tab.get('mostrar', True) is not False
+
+
+def grupo_de(p):
+    """Sección en la que vive la página de un proyecto (None si su sección está apagada)."""
+    if VISIBLE.get(p.get('grupo')):
+        return p['grupo']
+    if VISIBLE.get(p.get('tambien_en')):
+        return p['tambien_en']
+    return None
+
+
+PUBLICADOS = [s for s, p in P.items() if grupo_de(p)]
+
+
 def secuencia(grupo):
-    propios = sorted([p for p in P.values() if p.get('grupo') == grupo], key=lambda p: p.get('orden', 99))
-    prestados = sorted([p for p in P.values() if p.get('tambien_en') == grupo], key=lambda p: p.get('orden', 99))
-    return [p['slug'] for p in propios + prestados]
+    """Orden de anterior/siguiente: el mismo orden que las fotos de ese tablero en el Inicio."""
+    if not VISIBLE[grupo]:
+        return []
+    orden = []
+    for tab in TABLEROS:
+        if TAB_GRUPO.get(tab.get('id')) == grupo:
+            for f in tab.get('fotos', []) or []:
+                s = f.get('proyecto')
+                if s in PUBLICADOS and s not in orden:
+                    orden.append(s)
+    resto = sorted([p for p in P.values() if p['slug'] in PUBLICADOS and p['slug'] not in orden
+                    and (p.get('grupo') == grupo or p.get('tambien_en') == grupo)], key=lambda p: p.get('orden', 99))
+    return orden + [p['slug'] for p in resto]
 
 
 SEC = {g: secuencia(g) for g in GRUPOS}
 PRIMERA = {g: (SEC[g][0] if SEC[g] else '') for g in GRUPOS}
 PRIMERA['compania'] = 'compania'
+
+# Colocación automática de las fotos de cada tablero (columna, fila, velocidad, encima), en el orden de la lista.
+HUECOS = [('2 / 7', 1, 6, 0.04, False), ('7 / 12', 3, 6, 0.12, False), ('1 / 6', 7, 6, -0.05, False),
+          ('6 / 11', 9, 5, 0.08, False), ('3 / 8', 13, 6, 0.02, False), ('8 / 12', 14, 5, -0.1, True),
+          ('5 / 9', 19, 4, -0.06, False)]
+
+
+def hueco(k):
+    col, fila, alto, vel, encima = HUECOS[k % len(HUECOS)]
+    fila += 22 * (k // len(HUECOS))
+    return col, f'{fila} / {fila + alto}', vel, encima
 
 
 # ------------------------------------------------------------------ rutas
@@ -148,6 +190,8 @@ def menu(lang, desde, actual, portada):
     t = G[lang]
     lis = []
     for g in ['gira', 'pedagogia', 'colaboraciones', 'compania']:
+        if not PRIMERA.get(g):
+            continue
         c = ' class="actual"' if g == actual else ''
         lis.append(f'<li><a href="{enlace(desde, lang, PRIMERA[g])}"{c}>{e(t[MENU[g]])}</a></li>')
     pie = (f'<a href="#contacto">{e(t["contacto"])}</a>' if portada else
@@ -258,20 +302,27 @@ def inicio(lang):
             dentro = False
 
     tableros = []
-    for tab in PORTADA.get('tableros', []):
+    visibles = [tab for tab in TABLEROS if tab.get('mostrar', True) is not False]
+    for n, tab in enumerate(visibles):
         teselas = []
-        for f in tab.get('fotos', []):
-            p = P.get(f.get('proyecto'), {})
+        fotos = [f for f in (tab.get('fotos') or []) if f.get('proyecto') in PUBLICADOS and f.get('imagen')]
+        for k, f in enumerate(fotos):
+            p = P[f['proyecto']]
             pl = p.get(lang, {})
             fl = f.get(lang, {}) or {}
             nombre = pl.get('titulo', '')
-            enc = ' encima' if f.get('encima') else ''
-            teselas.append(f'''    <a class="tesela{enc}" href="{enlace(desde, lang, f.get("proyecto", ""))}" data-vel="{f.get("velocidad", 0)}" style="grid-column: {e(f.get("columna"))}; grid-row: {e(f.get("fila"))}">
+            col, fila, vel, encima = hueco(k)
+            col, fila = f.get('columna') or col, f.get('fila') or fila
+            vel = f.get('velocidad', vel)
+            enc = ' encima' if f.get('encima', encima) else ''
+            dato = fl.get('dato') or pl.get('datos', '')
+            teselas.append(f'''    <a class="tesela{enc}" href="{enlace(desde, lang, f["proyecto"])}" data-vel="{vel}" style="grid-column: {e(col)}; grid-row: {e(fila)}">
       <img src="{recurso(desde, f["imagen"])}" alt="{e(nombre)}" loading="lazy">
-      <span class="velo"><span class="t-nombre">{e(nombre)}</span><span class="t-dato">{e(fl.get("dato"))}</span><span class="t-linea">{inl(fl.get("linea"))}</span></span>
+      <span class="velo"><span class="t-nombre">{e(nombre)}</span><span class="t-dato">{e(dato)}</span><span class="t-linea">{inl(fl.get("linea"))}</span></span>
     </a>''')
         tid = 't-' + tab['id']
-        tableros.append(f'''<section class="tablero" id="{e(tab["id"])}" data-vigilar aria-labelledby="{tid}">
+        ultimo = ' ultimo' if n == len(visibles) - 1 else ''
+        tableros.append(f'''<section class="tablero{ultimo}" id="{e(tab["id"])}" data-vigilar aria-labelledby="{tid}">
   <div class="gigante-pista"><h2 class="gigante" id="{tid}">{e(tab["titulo"][lang])}</h2></div>
   <div class="collage">
 {chr(10).join(teselas)}
@@ -353,7 +404,7 @@ def proyecto(lang, slug):
     d = p[lang]
     t = G[lang]
     desde = archivo(lang, slug)
-    grupo = p['grupo']
+    grupo = grupo_de(p)
     sec = SEC[grupo]
     k = sec.index(slug)
     ant, sig = sec[(k - 1) % len(sec)], sec[(k + 1) % len(sec)]
@@ -377,7 +428,7 @@ def proyecto(lang, slug):
 
     extra = ''
     tb = p.get('tambien')
-    if tb and tb.get('proyecto') in P:
+    if tb and tb.get('proyecto') in PUBLICADOS:
         otro = P[tb['proyecto']][lang]
         extra = f'''<a class="pz-tambien entra" href="{enlace(desde, lang, tb["proyecto"])}">
   <img src="{recurso(desde, tb["imagen"])}" alt="" loading="lazy">
@@ -504,7 +555,7 @@ def construir():
         escribir(archivo(lang, ''), inicio(lang))
         escribir(archivo(lang, 'compania'), compania(lang))
         urls += [url_abs(lang, ''), url_abs(lang, 'compania')]
-        for slug in P:
+        for slug in PUBLICADOS:
             escribir(archivo(lang, slug), proyecto(lang, slug))
             urls.append(url_abs(lang, slug))
     escribir('404.html', no_existe())
