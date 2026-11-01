@@ -26,11 +26,6 @@ es:
     - {dato: "Espacio", valor: "Calle y sala"}
     - {dato: "Origen", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, Londres)"}
   boton_video: Ver el tráiler
-  mas_videos:
-    - {nombre: "Tráiler en sala", youtube: "Yi-b34JRcog"}
-    - {nombre: "Versión de 5 a 6 minutos", youtube: "F-59OqQP6T8", duracion: "6 min"}
-    - {nombre: "Pieza completa en calle", youtube: "kIkhm1zSF8E", duracion: "13 min"}
-    - {nombre: "Pieza completa en sala", youtube: "fzHFmR_9tUE", duracion: "13 min"}
   pedir: ¿Queréis programar *Blue Monday*?
 
 ca:
@@ -49,11 +44,6 @@ ca:
     - {dato: "Espai", valor: "Carrer i sala"}
     - {dato: "Origen", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, Londres)"}
   boton_video: Mira el tràiler
-  mas_videos:
-    - {nombre: "Tràiler en sala", youtube: "Yi-b34JRcog"}
-    - {nombre: "Versió de 5 a 6 minuts", youtube: "F-59OqQP6T8", duracion: "6 min"}
-    - {nombre: "Peça completa al carrer", youtube: "kIkhm1zSF8E", duracion: "13 min"}
-    - {nombre: "Peça completa en sala", youtube: "fzHFmR_9tUE", duracion: "13 min"}
   pedir: Voleu programar *Blue Monday*?
 
 en:
@@ -72,11 +62,6 @@ en:
     - {dato: "Space", valor: "Street and stage"}
     - {dato: "Origin", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, London)"}
   boton_video: Watch the trailer
-  mas_videos:
-    - {nombre: "Stage trailer", youtube: "Yi-b34JRcog"}
-    - {nombre: "5–6 minute version", youtube: "F-59OqQP6T8", duracion: "6 min"}
-    - {nombre: "Full piece in the street", youtube: "kIkhm1zSF8E", duracion: "13 min"}
-    - {nombre: "Full piece on stage", youtube: "fzHFmR_9tUE", duracion: "13 min"}
   pedir: Would you like to programme *Blue Monday*?
 
 fr:
@@ -95,9 +80,4 @@ fr:
     - {dato: "Espace", valor: "Rue et salle"}
     - {dato: "Origine", valor: "Back to the Lab, Breakin' Convention (Sadler's Wells, Londres)"}
   boton_video: Voir la bande-annonce
-  mas_videos:
-    - {nombre: "Bande-annonce en salle", youtube: "Yi-b34JRcog"}
-    - {nombre: "Version de 5 à 6 minutes", youtube: "F-59OqQP6T8", duracion: "6 min"}
-    - {nombre: "Pièce intégrale en rue", youtube: "kIkhm1zSF8E", duracion: "13 min"}
-    - {nombre: "Pièce intégrale en salle", youtube: "fzHFmR_9tUE", duracion: "13 min"}
   pedir: Vous souhaitez programmer *Blue Monday* ?

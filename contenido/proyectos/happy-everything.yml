@@ -34,8 +34,6 @@ es:
     - {dato: "Premio", valor: "Premio NunArt, Certamen de Sabadell"}
     - {dato: "Versión pedagógica", valor: "Actuación y charla sobre salud mental para ESO y Bachillerato"}
   boton_video: Ver el tráiler
-  mas_videos:
-    - {nombre: "Versión de 6 minutos", youtube: "wO6v5oJAAjY", duracion: "6 min"}
   tambien_rotulo: También en institutos
   tambien_texto: El solo en directo y una charla sobre salud mental con una psicóloga. Para ESO y Bachillerato, 50–55 min.
   tambien_enlace: Ver la propuesta para institutos →
@@ -62,8 +60,6 @@ ca:
     - {dato: "Premi", valor: "Premi NunArt, Certamen de Sabadell"}
     - {dato: "Versió pedagògica", valor: "Actuació i xerrada sobre salut mental per a ESO i Batxillerat"}
   boton_video: Mira el tràiler
-  mas_videos:
-    - {nombre: "Versió de 6 minuts", youtube: "wO6v5oJAAjY", duracion: "6 min"}
   tambien_rotulo: També als instituts
   tambien_texto: El solo en directe i una xerrada sobre salut mental amb una psicòloga. Per a ESO i Batxillerat, 50–55 min.
   tambien_enlace: Mira la proposta per a instituts →
@@ -90,8 +86,6 @@ en:
     - {dato: "Award", valor: "NunArt Award, Sabadell Competition"}
     - {dato: "Schools version", valor: "Performance and talk on mental health for secondary schools"}
   boton_video: Watch the trailer
-  mas_videos:
-    - {nombre: "6-minute version", youtube: "wO6v5oJAAjY", duracion: "6 min"}
   tambien_rotulo: Also in schools
   tambien_texto: The solo performed live and a talk on mental health with a psychologist. For secondary schools, 50–55 min.
   tambien_enlace: See the schools programme →
@@ -118,8 +112,6 @@ fr:
     - {dato: "Prix", valor: "Prix NunArt, Concours de Sabadell"}
     - {dato: "Version scolaire", valor: "Représentation et échange sur la santé mentale pour collèges et lycées"}
   boton_video: Voir la bande-annonce
-  mas_videos:
-    - {nombre: "Version de 6 minutes", youtube: "wO6v5oJAAjY", duracion: "6 min"}
   tambien_rotulo: Aussi au collège et au lycée
   tambien_texto: Le solo en direct et un échange sur la santé mentale avec une psychologue. Pour collèges et lycées, 50–55 min.
   tambien_enlace: Voir la proposition pour les établissements →

@@ -36,9 +36,6 @@ es:
     - {dato: "Público", valor: "Todos los públicos · Sin texto"}
     - {dato: "Se ha visto en", valor: "Dansa Metropolitana (Terrassa, Granollers y L'Hospitalet)"}
   boton_video: Ver el teaser
-  mas_videos:
-    - {nombre: "Pieza completa en sala", youtube: "W2LtPytdmAc", duracion: "23 min"}
-    - {nombre: "Pieza completa en calle", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
   pedir: ¿Queréis programar *A medio camino*?
 
 ca:
@@ -67,9 +64,6 @@ ca:
     - {dato: "Públic", valor: "Tots els públics · Sense text"}
     - {dato: "S'ha vist a", valor: "Dansa Metropolitana (Terrassa, Granollers i L'Hospitalet)"}
   boton_video: Mira el teaser
-  mas_videos:
-    - {nombre: "Peça completa en sala", youtube: "W2LtPytdmAc", duracion: "23 min"}
-    - {nombre: "Peça completa al carrer", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
   pedir: Voleu programar *A medio camino*?
 
 en:
@@ -98,9 +92,6 @@ en:
     - {dato: "Audience", valor: "All ages · No text"}
     - {dato: "Performed at", valor: "Dansa Metropolitana (Terrassa, Granollers and L'Hospitalet)"}
   boton_video: Watch the teaser
-  mas_videos:
-    - {nombre: "Full piece on stage", youtube: "W2LtPytdmAc", duracion: "23 min"}
-    - {nombre: "Full piece in the street", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
   pedir: Would you like to programme *A medio camino*?
 
 fr:
@@ -129,7 +120,4 @@ fr:
     - {dato: "Public", valor: "Tout public · Sans texte"}
     - {dato: "Présentée à", valor: "Dansa Metropolitana (Terrassa, Granollers et L'Hospitalet)"}
   boton_video: Voir le teaser
-  mas_videos:
-    - {nombre: "Pièce intégrale en salle", youtube: "W2LtPytdmAc", duracion: "23 min"}
-    - {nombre: "Pièce intégrale en rue", youtube: "SAqPLTXpFOQ", duracion: "23 min"}
   pedir: Vous souhaitez programmer *A medio camino* ?
