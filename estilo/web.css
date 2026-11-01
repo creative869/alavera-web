@@ -22,3 +22,8 @@ button.video { width: 100%; padding: 0; border: 0; }
 /* El último tablero visible deja aire antes del contacto */
 .tablero.ultimo { padding-bottom: var(--seccion); }
 @media (max-width: 640px) { .tablero.ultimo { padding-bottom: 72px; } }
+
+/* Definición «a la vera»: a la derecha de la foto y alineada a la derecha (en móvil, a la izquierda) */
+.definicion { text-align: right; justify-items: end; }
+.definicion .num { margin-right: 6px; }
+@media (max-width: 1000px) { .definicion { text-align: left; justify-items: start; } }
